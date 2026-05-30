@@ -1,0 +1,221 @@
+What This predictor.js Actually Does
+This file is the Frontend Prediction Interface for your Sustainable Fashion AI/ML Platform.
+It does NOT train models.
+Instead, it:
+Takes user inputs
+Sends them to Flask backend (/api/predict)
+Receives ML predictions
+Displays sustainability results visually
+So this JS file is the communication bridge between:
+User Interface
+Flask Backend
+ML Models
+
+The prediction logic comes from your trained ML models:
+Random Forest
+XGBoost
+Gradient Boosting
+The JS file only:
+collects inputs
+sends them
+visualizes outputs
+
+
+6. Product Lines (product_lines)
+VERY interesting feature.
+What It Means
+How many product categories the company produces.
+Example: shoes jackets shirts accessories
+Relationship
+INDIRECT BUT IMPORTANT
+Product lines normalize environmental impact.
+Example
+Carbon	Product Lines	Carbon per Product
+200	2			100
+200	20			10
+
+Second company looks more efficient.
+Effect on Predictions
+Higher product lines can:
+reduce environmental intensity
+improve rating indirectly
+
+
+
+8. Market Trend (market)
+Examples:
+Growing
+Stable
+Declining
+
+Why It Matters
+Market trend reflects:
+customer demand
+sustainability popularity
+brand adoption
+
+Relationship
+Trend	Sustainability
+Growing		Better
+Declining	Worse
+
+BUT IMPORTANT
+This is probably:
+LOW IMPORTANCE FEATURE
+because it does not directly affect environmental metrics.
+
+
+9. Certifications (cert)
+VERY IMPORTANT BUSINESS FEATURE.
+Why Important?
+Certifications indicate:
+compliance
+sustainable standards
+verified practices
+
+Relationship POSITIVE
+Certified companies likely:
+have lower emissions
+use sustainable materials
+ML Importance
+
+Probably medium-to-high contribution.
+
+
+
+What is dashboard.js?
+
+This file is the:
+Analytics + Visualization Engine
+for your Sustainable Fashion AI Platform.
+
+It does NOT train ML models.
+
+Instead, it:
+✅ Fetches processed analytics data from Flask
+✅ Creates charts using Chart.js
+✅ Displays KPIs
+✅ Shows sustainability trends
+✅ Visualizes EDA insights
+✅ Builds interactive dashboard UI
+
+MAIN PURPOSE OF THIS FILE
+This JS converts raw ML analytics into:
+business insights
+sustainability reports
+visual storytelling
+executive dashboard
+This is actually a very important part of real-world AI systems.
+
+
+
+This file is the EDA (Exploratory Data Analysis) Explorer of your sustainability project.
+Explorer.js
+It is used to:
+analyze the dataset,
+discover hidden patterns,
+compare factors,
+understand relationships between variables,
+and help improve the ML prediction model.
+
+This file is extremely important because it explains:
+“WHY is the model predicting this rating?”
+instead of only showing prediction results.
+predictor.js → gives predictions
+dashboard.js → gives overview summary
+explorer.js → deeply analyzes the dataset
+
+🌍 What is EDA?
+EDA = Exploratory Data Analysis
+EDA helps answer questions like:
+Which material creates highest pollution?
+Which country has most sustainable brands?
+Does certification improve eco-score?
+Does higher price mean better sustainability?
+Is carbon footprint increasing yearly?
+Are eco-friendly brands growing?
+
+This is why companies use EDA before ML training.
+🔥 Main Purpose of explorer.js
+This file creates:
+tabs
+interactive charts
+comparisons
+correlations
+trend analysis
+scatter plots
+heatmaps
+using: Chart.js
+
+MATERIALS TAB 
+ WHY THIS IS IMPORTANT
+
+The ML model learns:
+Material Type → Sustainability Rating
+Example:
+If:
+Polyester produces high carbon
+high waste
+low eco-score
+then model learns:
+Polyester → Lower sustainability
+If:
+Organic Cotton has low pollution
+model learns:
+Organic Cotton → Better sustainability
+
+	Charts in Materials Tab
+	A) Carbon Chart : average carbon footprint by material. Meaning: Polyester harms environment more. So model gives lower rating.
+
+	B) Water Chart : material_water Shows: water consumption by material.  Important because: high water usage = less sustainable.
+
+	C) Waste Chart : material_waste Shows: production waste generated. Higher waste: lowers eco-score -> affects predictions
+
+	D) Material Count Doughnut : material_count  Shows: how many brands use each material.This helps detect: common industry trends, dominant sustainable materials
+
+
+COUNTRIES TAB
+ Analyzes countries.
+
+ WHY COUNTRY IS IMPORTANT
+  Different countries:
+follow different environmental laws
+have different manufacturing quality
+different sustainability standards
+
+Example:
+European countries → stricter eco laws
+some countries → higher industrial pollution
+
+Model learns these patterns.
+A) Country Carbon Chart : Shows: average pollution by country Meaning : Swedish brands may receive better ratings.
+B) Brand Count:  Shows: how many brands belong to each country.Useful for: market analysis, dataset balance
+C) Country Rating Score
+country_avg_rating
+
+This is VERY important.
+
+Encoding Logic
+
+Probably:
+
+Rating	Encoded
+A	0
+B	1
+C	2
+D	3
+
+Lower = better.
+
+So:
+
+lower = better sustainability
+
+Example:
+
+Country	Avg Rating Index
+Sweden	0.5
+USA	1.8
+
+Meaning:
+Sweden brands are more sustainable overall.

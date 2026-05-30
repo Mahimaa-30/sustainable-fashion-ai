@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sustainable Fashion AI/ML Platform — Predicting environmental impact of fashion brands using machine learning." />
+  <title>🌿 Sustainable Fashion AI Platform | Dashboard</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="main-nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">
+        <div class="nav-brand-icon">🌿</div>
+        <div class="nav-brand-text">
+          EcoFashion AI
+          <span class="nav-brand-sub">Sustainability Intelligence</span>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="/" class="nav-link active" id="nav-dashboard"><span class="icon">📊</span> Dashboard</a>
+        <a href="/predictor" class="nav-link" id="nav-predictor"><span class="icon">🔮</span> Predictor</a>
+        <a href="/explorer" class="nav-link" id="nav-explorer"><span class="icon">🔬</span> EDA Explorer</a>
+        <a href="/benchmarks" class="nav-link" id="nav-benchmarks"><span class="icon">⚡</span> Benchmarks</a>
+        <a href="/insights" class="nav-link" id="nav-insights"><span class="icon">💡</span> AI Insights</a>
+      </div>
+      <div class="nav-badge">
+        <div class="status-dot"></div>
+        <span>5,001 Brands Analyzed</span>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div class="page-container">
+
+      <!-- Page Header -->
+      <div class="page-header animate-fade-up">
+        <div class="page-header-pill">
+          <span>✨</span> AI-Powered Analytics
+        </div>
+        <h1>Sustainable Fashion<br>Intelligence Dashboard</h1>
+        <p>Real-time insights into environmental impact, sustainability ratings, and eco-trends across global fashion brands.</p>
+      </div>
+
+      <!-- KPI Cards -->
+      <div class="kpi-grid" id="kpi-grid">
+        <!-- Loaded dynamically -->
+        <div class="kpi-card animate-fade-up stagger-1" id="kpi-brands">
+          <div class="kpi-icon-wrap">🏷️</div>
+          <div class="kpi-value" id="kv-brands">—</div>
+          <div class="kpi-label">Total Brands</div>
+          <div class="kpi-change">↑ 15 countries covered</div>
+        </div>
+        <div class="kpi-card animate-fade-up stagger-2" id="kpi-carbon">
+          <div class="kpi-icon-wrap">💨</div>
+          <div class="kpi-value" id="kv-carbon">—</div>
+          <div class="kpi-label">Avg Carbon (MT)</div>
+          <div class="kpi-change" style="color:var(--rating-c)">Industry benchmark</div>
+        </div>
+        <div class="kpi-card animate-fade-up stagger-3" id="kpi-eco">
+          <div class="kpi-icon-wrap">♻️</div>
+          <div class="kpi-value" id="kv-eco">—</div>
+          <div class="kpi-label">Eco-Friendly %</div>
+          <div class="kpi-change">↑ Manufacturing</div>
+        </div>
+        <div class="kpi-card animate-fade-up stagger-4" id="kpi-score">
+          <div class="kpi-icon-wrap">⭐</div>
+          <div class="kpi-value" id="kv-score">—</div>
+          <div class="kpi-label">Avg Eco Score</div>
+          <div class="kpi-change" id="kv-score-trend">out of 100</div>
+        </div>
+        <div class="kpi-card animate-fade-up stagger-5" id="kpi-water">
+          <div class="kpi-icon-wrap">💧</div>
+          <div class="kpi-value" id="kv-water">—</div>
+          <div class="kpi-label">Avg Water (L/brand)</div>
+          <div class="kpi-change" style="color:var(--teal)">Liters per year</div>
+        </div>
+      </div>
+
+      <!-- Charts Row 1 -->
+      <div class="grid-2 animate-fade-up stagger-2" style="margin-bottom:1.5rem">
+        <!-- Rating Distribution -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">📈</div> Sustainability Rating Distribution</div>
+            <span class="badge badge-green">All Brands</span>
+          </div>
+          <div class="card-body">
+            <div class="chart-wrap" style="height:260px">
+              <canvas id="ratingDoughnutChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Market Trend -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">📉</div> Market Trend Analysis</div>
+            <span class="badge badge-blue">Live</span>
+          </div>
+          <div class="card-body">
+            <div class="chart-wrap" style="height:260px">
+              <canvas id="marketTrendChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Charts Row 2 -->
+      <div class="grid-2 animate-fade-up stagger-3" style="margin-bottom:1.5rem">
+        <!-- Year Trend -->
+        <div class="card col-span-2">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">📅</div> Eco-Score Trend (2010–2027)</div>
+            <div style="display:flex; gap:0.5rem">
+              <span class="badge badge-green">Historical</span>
+              <span class="badge badge-blue">Forecast</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="chart-wrap" style="height:240px">
+              <canvas id="ecoTrendChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Charts Row 3 -->
+      <div class="grid-2 animate-fade-up stagger-4" style="margin-bottom:1.5rem">
+        <!-- Material Carbon Comparison -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">🧵</div> Avg Carbon by Material Type</div>
+          </div>
+          <div class="card-body">
+            <div class="chart-wrap" style="height:260px">
+              <canvas id="materialCarbonChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Country Comparison -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">🌍</div> Top Countries by Brand Count</div>
+          </div>
+          <div class="card-body">
+            <div class="chart-wrap" style="height:260px">
+              <canvas id="countryChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Row: Top Brands Table + Certification Pie -->
+      <div class="grid-2 animate-fade-up stagger-5">
+        <div class="card col-span-2">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">🏆</div> Top 10 Most Sustainable Brands</div>
+            <a href="/insights" class="btn btn-secondary btn-sm">View All →</a>
+          </div>
+          <div class="card-body" style="padding:0">
+            <div style="overflow-x:auto">
+              <table class="data-table" id="top-brands-table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Brand</th>
+                    <th>Country</th>
+                    <th>Rating</th>
+                    <th>Eco Score</th>
+                    <th>Carbon (MT)</th>
+                    <th>Material</th>
+                    <th>Certification</th>
+                  </tr>
+                </thead>
+                <tbody id="top-brands-body">
+                  <tr><td colspan="8" class="loading-state"><div class="spinner"></div></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="grid-2 animate-fade-up stagger-5" style="margin-top:1.5rem">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">🏅</div> Certifications Distribution</div>
+          </div>
+          <div class="card-body">
+            <div class="chart-wrap" style="height:240px">
+              <canvas id="certChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">🌱</div> Carbon Footprint by Rating</div>
+          </div>
+          <div class="card-body">
+            <div class="chart-wrap" style="height:240px">
+              <canvas id="carbonByRatingChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /page-container -->
+  </main>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

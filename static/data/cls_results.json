@@ -1,0 +1,118 @@
+{
+  "Random Forest": {
+    "accuracy": 0.885,
+    "f1": 0.8856,
+    "precision": 0.8902,
+    "recall": 0.885,
+    "confusion_matrix": [
+      [
+        264,
+        30,
+        0,
+        0
+      ],
+      [
+        9,
+        269,
+        17,
+        0
+      ],
+      [
+        0,
+        24,
+        146,
+        1
+      ],
+      [
+        0,
+        0,
+        11,
+        29
+      ]
+    ]
+  },
+  "XGBoost": {
+    "accuracy": 0.9038,
+    "f1": 0.9038,
+    "precision": 0.908,
+    "recall": 0.9038,
+    "confusion_matrix": [
+      [
+        267,
+        27,
+        0,
+        0
+      ],
+      [
+        7,
+        275,
+        13,
+        0
+      ],
+      [
+        0,
+        17,
+        153,
+        1
+      ],
+      [
+        0,
+        0,
+        12,
+        28
+      ]
+    ]
+  },
+  "Gradient Boosting": {
+    "accuracy": 0.905,
+    "f1": 0.9052,
+    "precision": 0.9093,
+    "recall": 0.905,
+    "confusion_matrix": [
+      [
+        268,
+        26,
+        0,
+        0
+      ],
+      [
+        8,
+        272,
+        15,
+        0
+      ],
+      [
+        0,
+        16,
+        155,
+        0
+      ],
+      [
+        0,
+        0,
+        11,
+        29
+      ]
+    ]
+  },
+  "feature_importance": {
+    "Country_Enc": 0.0052,
+    "Year": 0.0056,
+    "Material_Enc": 0.0028,
+    "Eco_Friendly_Enc": 0.0034,
+    "Carbon_Footprint_MT": 0.2862,
+    "Water_Usage_Liters": 0.2005,
+    "Waste_Production_KG": 0.189,
+    "Recycling_Enc": 0.0033,
+    "Product_Lines": 0.002,
+    "Average_Price_USD": 0.0094,
+    "Market_Enc": 0.0017,
+    "Cert_Enc": 0.0018,
+    "Carbon_per_Product": 0.012,
+    "Water_per_Product": 0.0152,
+    "Carbon_Water_Ratio": 0.0391,
+    "Waste_Carbon_Ratio": 0.0296,
+    "Price_per_Line": 0.0093,
+    "Sustainability_Score": 0.184
+  }
+}

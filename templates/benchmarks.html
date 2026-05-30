@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="ML Model Benchmarks — compare accuracy, F1, precision, recall and regression metrics across multiple models."/>
+  <title>⚡ Model Benchmarks | EcoFashion AI</title>
+  <link rel="stylesheet" href="/static/css/style.css"/>
+  <style>
+    .model-card {
+      position:relative; overflow:hidden;
+      background: var(--grad-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      transition: var(--transition-smooth);
+    }
+    .model-card:hover { border-color:var(--border-medium); transform:translateY(-3px); box-shadow:var(--shadow-glow-sm); }
+    .model-card.best { border-color:rgba(0,200,150,0.4); }
+    .model-card.best::before { content:''; position:absolute; top:0;left:0;right:0;height:3px;background:var(--grad-primary); }
+    .model-badge { position:absolute;top:1rem;right:1rem;font-size:0.7rem;font-weight:700;padding:0.25rem 0.6rem;border-radius:999px; background:rgba(0,200,150,0.15);color:var(--green-primary);border:1px solid rgba(0,200,150,0.3); }
+    .metric-row { display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem; }
+    .metric-name { font-size:0.78rem;color:var(--text-secondary);width:80px;flex-shrink:0; }
+    .metric-track { flex:1;height:8px;background:rgba(0,200,150,0.1);border-radius:4px;overflow:hidden; }
+    .metric-fill { height:100%;border-radius:4px;transition:width 1s cubic-bezier(0.4,0,0.2,1); }
+    .metric-val { font-size:0.8rem;font-weight:700;color:var(--text-primary);width:44px;text-align:right; }
+    .cm-cell { display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:8px;font-size:0.85rem;font-weight:700; }
+    .reg-metric { display:flex;flex-direction:column;gap:0.2rem;padding:1rem;background:var(--bg-glass);border:1px solid var(--border-subtle);border-radius:var(--radius-md);text-align:center; }
+    .reg-metric-val { font-size:1.4rem;font-weight:700;font-family:'Space Grotesk',sans-serif;color:var(--text-accent); }
+    .reg-metric-lbl { font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.06em; }
+    .fi-bar { display:flex;align-items:center;gap:0.75rem;margin-bottom:0.5rem; }
+    .fi-name { font-size:0.78rem;color:var(--text-secondary);width:160px;flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; }
+    .fi-track { flex:1;height:10px;background:rgba(0,200,150,0.1);border-radius:5px;overflow:hidden; }
+    .fi-fill { height:100%;background:var(--grad-primary);border-radius:5px;transition:width 1s cubic-bezier(0.4,0,0.2,1); }
+    .fi-val { font-size:0.78rem;font-weight:600;color:var(--text-accent);width:40px;text-align:right; }
+  </style>
+</head>
+<body>
+  <div class="page-bg"></div>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">
+        <div class="nav-brand-icon">🌿</div>
+        <div class="nav-brand-text">EcoFashion AI<span class="nav-brand-sub">Sustainability Intelligence</span></div>
+      </a>
+      <div class="nav-links">
+        <a href="/" class="nav-link"><span class="icon">📊</span> Dashboard</a>
+        <a href="/predictor" class="nav-link"><span class="icon">🔮</span> Predictor</a>
+        <a href="/explorer" class="nav-link"><span class="icon">🔬</span> EDA Explorer</a>
+        <a href="/benchmarks" class="nav-link active"><span class="icon">⚡</span> Benchmarks</a>
+        <a href="/insights" class="nav-link"><span class="icon">💡</span> AI Insights</a>
+      </div>
+      <div class="nav-badge"><div class="status-dot"></div><span>5 Models Trained</span></div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div class="page-container">
+      <div class="page-header animate-fade-up">
+        <div class="page-header-pill"><span>⚡</span> Model Evaluation</div>
+        <h1>ML Model Benchmarks</h1>
+        <p>Side-by-side comparison of 3 classification and 2 regression models — accuracy, F1-score, confusion matrices, feature importance, and more.</p>
+      </div>
+
+      <!-- Tab Bar -->
+      <div class="tab-bar animate-fade-up stagger-1">
+        <button class="tab-btn active" data-tab="classification">🏷️ Classification Models</button>
+        <button class="tab-btn" data-tab="regression">📉 Regression Models</button>
+        <button class="tab-btn" data-tab="confusion">🔲 Confusion Matrices</button>
+        <button class="tab-btn" data-tab="features">📊 Feature Importance</button>
+      </div>
+
+      <!-- Classification Models Tab -->
+      <div id="bench-tab-classification">
+        <!-- Best model alert -->
+        <div class="alert alert-success animate-fade-up stagger-1" id="best-cls-alert" style="margin-bottom:1.5rem">
+          <span>🏆</span>
+          <span>Best performing classifier: <strong id="best-cls-name">Loading…</strong> — deployed for production predictions.</span>
+        </div>
+
+        <!-- Model cards grid -->
+        <div id="cls-model-cards" class="grid-3 animate-fade-up stagger-2" style="margin-bottom:1.5rem">
+          <!-- Loaded dynamically -->
+          <div class="loading-state col-span-3"><div class="spinner"></div><span>Loading benchmark results…</span></div>
+        </div>
+
+        <!-- Accuracy comparison chart -->
+        <div class="card animate-fade-up stagger-3">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">📊</div> Classifier Metrics Comparison</div>
+            <span class="badge badge-green">Classification</span>
+          </div>
+          <div class="card-body">
+            <div class="chart-wrap" style="height:280px"><canvas id="cls-comparison-chart"></canvas></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Regression Models Tab -->
+      <div id="bench-tab-regression" style="display:none">
+        <div class="alert alert-info animate-fade-up" style="margin-bottom:1.5rem">
+          <span>📉</span>
+          <span>Best performing regressor: <strong id="best-reg-name">Loading…</strong> — used for Carbon Footprint estimation.</span>
+        </div>
+
+        <div id="reg-model-cards" class="grid-2 animate-fade-up stagger-1" style="margin-bottom:1.5rem">
+          <div class="loading-state col-span-2"><div class="spinner"></div><span>Loading…</span></div>
+        </div>
+
+        <div class="card animate-fade-up stagger-2">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">📉</div> Regression Metrics Comparison</div>
+            <span class="badge badge-blue">Regression</span>
+          </div>
+          <div class="card-body">
+            <div class="chart-wrap" style="height:260px"><canvas id="reg-comparison-chart"></canvas></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Confusion Matrix Tab -->
+      <div id="bench-tab-confusion" style="display:none">
+        <div class="grid-3 animate-fade-up">
+          <!-- Populated dynamically -->
+          <div class="loading-state col-span-3"><div class="spinner"></div><span>Loading…</span></div>
+        </div>
+      </div>
+
+      <!-- Feature Importance Tab -->
+      <div id="bench-tab-features" style="display:none">
+        <div class="card animate-fade-up">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">📊</div> Feature Importance (Best Classifier)</div>
+            <span class="badge badge-green" id="fi-model-label">Random Forest</span>
+          </div>
+          <div class="card-body">
+            <div id="fi-bars" style="display:flex;flex-direction:column;gap:0.5rem;margin-bottom:1.5rem"></div>
+            <div class="chart-wrap" style="height:280px"><canvas id="fi-chart"></canvas></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="/static/js/benchmarks.js"></script>
+</body>
+</html>

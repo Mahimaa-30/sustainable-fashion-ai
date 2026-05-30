@@ -1,0 +1,4409 @@
+{
+  "kpis": {
+    "total_brands": 3996,
+    "countries": 10,
+    "years_span": "2010\u20132024",
+    "avg_carbon": 251.07,
+    "avg_water": 2548777.56,
+    "avg_waste": 50325.35,
+    "eco_friendly_pct": 50.83,
+    "recycling_pct": 50.33,
+    "avg_eco_score": 49.72,
+    "avg_price": 259.75
+  },
+  "rating_dist": {
+    "B": 1473,
+    "A": 1467,
+    "C": 853,
+    "D": 203
+  },
+  "material_carbon": {
+    "Bamboo Fabric": 247.39,
+    "Hemp": 252.35,
+    "Organic Cotton": 250.16,
+    "Recycled Polyester": 261.7,
+    "Tencel": 252.65,
+    "Vegan Leather": 241.31
+  },
+  "material_water": {
+    "Bamboo Fabric": 2544377.28,
+    "Hemp": 2573811.9,
+    "Organic Cotton": 2552912.18,
+    "Recycled Polyester": 2555237.89,
+    "Tencel": 2606204.24,
+    "Vegan Leather": 2457225.66
+  },
+  "material_waste": {
+    "Bamboo Fabric": 50897.8,
+    "Hemp": 50791.78,
+    "Organic Cotton": 51982.1,
+    "Recycled Polyester": 49037.48,
+    "Tencel": 49695.82,
+    "Vegan Leather": 49554.87
+  },
+  "material_count": {
+    "Recycled Polyester": 696,
+    "Hemp": 692,
+    "Bamboo Fabric": 661,
+    "Organic Cotton": 661,
+    "Tencel": 645,
+    "Vegan Leather": 641
+  },
+  "country_avg_rating": {
+    "Australia": 0.935,
+    "Brazil": 0.967,
+    "China": 0.993,
+    "France": 0.898,
+    "Germany": 0.948,
+    "India": 0.964,
+    "Italy": 0.914,
+    "Japan": 0.915,
+    "UK": 0.961,
+    "USA": 0.982
+  },
+  "country_avg_carbon": {
+    "Australia": 249.05,
+    "Brazil": 255.04,
+    "China": 259.65,
+    "France": 244.08,
+    "Germany": 251.11,
+    "India": 253.35,
+    "Italy": 251.7,
+    "Japan": 240.78,
+    "UK": 249.69,
+    "USA": 255.47
+  },
+  "country_count": {
+    "Italy": 419,
+    "China": 411,
+    "UK": 408,
+    "Germany": 403,
+    "Australia": 402,
+    "USA": 398,
+    "Brazil": 397,
+    "France": 394,
+    "India": 387,
+    "Japan": 377
+  },
+  "year_avg_eco": {
+    "2010": 50.58,
+    "2011": 50.14,
+    "2012": 49.38,
+    "2013": 48.61,
+    "2014": 49.73,
+    "2015": 50.42,
+    "2016": 48.78,
+    "2017": 49.13,
+    "2018": 48.84,
+    "2019": 49.89,
+    "2020": 49.16,
+    "2021": 49.37,
+    "2022": 51.1,
+    "2023": 50.74,
+    "2024": 49.97
+  },
+  "year_carbon": {
+    "2010": 258.47,
+    "2011": 236.47,
+    "2012": 255.94,
+    "2013": 247.57,
+    "2014": 248.92,
+    "2015": 247.21,
+    "2016": 259.71,
+    "2017": 253.95,
+    "2018": 260.23,
+    "2019": 243.3,
+    "2020": 255.55,
+    "2021": 253.4,
+    "2022": 246.96,
+    "2023": 244.84,
+    "2024": 251.8
+  },
+  "year_rating_dist": {
+    "2010": {
+      "A": 109,
+      "B": 100,
+      "C": 58,
+      "D": 16
+    },
+    "2011": {
+      "A": 107,
+      "B": 90,
+      "C": 61,
+      "D": 11
+    },
+    "2012": {
+      "B": 105,
+      "A": 97,
+      "C": 61,
+      "D": 10
+    },
+    "2013": {
+      "B": 102,
+      "A": 87,
+      "C": 63,
+      "D": 15
+    },
+    "2014": {
+      "A": 99,
+      "B": 88,
+      "C": 62,
+      "D": 9
+    },
+    "2015": {
+      "A": 98,
+      "B": 91,
+      "C": 42,
+      "D": 18
+    },
+    "2016": {
+      "B": 105,
+      "A": 97,
+      "C": 65,
+      "D": 17
+    },
+    "2017": {
+      "B": 103,
+      "A": 89,
+      "C": 59,
+      "D": 9
+    },
+    "2018": {
+      "A": 103,
+      "B": 102,
+      "C": 59,
+      "D": 17
+    },
+    "2019": {
+      "B": 97,
+      "A": 86,
+      "C": 40,
+      "D": 20
+    },
+    "2020": {
+      "B": 93,
+      "A": 72,
+      "C": 48,
+      "D": 14
+    },
+    "2021": {
+      "A": 111,
+      "B": 95,
+      "C": 71,
+      "D": 12
+    },
+    "2022": {
+      "A": 111,
+      "B": 94,
+      "C": 63,
+      "D": 8
+    },
+    "2023": {
+      "B": 112,
+      "A": 100,
+      "C": 43,
+      "D": 14
+    },
+    "2024": {
+      "A": 101,
+      "B": 96,
+      "C": 58,
+      "D": 13
+    }
+  },
+  "market_dist": {
+    "Stable": 1374,
+    "Declining": 1323,
+    "Growing": 1299
+  },
+  "cert_dist": {
+    "GOTS": 1050,
+    "OEKO-TEX": 1028,
+    "B Corp": 987,
+    "Fair Trade": 931
+  },
+  "cert_rating": {
+    "B Corp": 0.933,
+    "Fair Trade": 1.011,
+    "GOTS": 0.963,
+    "OEKO-TEX": 0.89
+  },
+  "top_brands": [
+    {
+      "Brand_Name": "Brand_3196",
+      "Country": "UK",
+      "Sustainability_Rating": "A",
+      "Eco_Score": 93.72,
+      "Carbon_Footprint_MT": 51.59,
+      "Material_Type": "Tencel",
+      "Certifications": "OEKO-TEX"
+    },
+    {
+      "Brand_Name": "Brand_2910",
+      "Country": "Australia",
+      "Sustainability_Rating": "A",
+      "Eco_Score": 93.64,
+      "Carbon_Footprint_MT": 82.78,
+      "Material_Type": "Tencel",
+      "Certifications": "B Corp"
+    },
+    {
+      "Brand_Name": "Brand_1261",
+      "Country": "Australia",
+      "Sustainability_Rating": "A",
+      "Eco_Score": 92.48,
+      "Carbon_Footprint_MT": 10.15,
+      "Material_Type": "Hemp",
+      "Certifications": "GOTS"
+    },
+    {
+      "Brand_Name": "Brand_1875",
+      "Country": "France",
+      "Sustainability_Rating": "A",
+      "Eco_Score": 92.3,
+      "Carbon_Footprint_MT": 87.83,
+      "Material_Type": "Bamboo Fabric",
+      "Certifications": "OEKO-TEX"
+    },
+    {
+      "Brand_Name": "Brand_2868",
+      "Country": "India",
+      "Sustainability_Rating": "A",
+      "Eco_Score": 91.77,
+      "Carbon_Footprint_MT": 38.37,
+      "Material_Type": "Bamboo Fabric",
+      "Certifications": "B Corp"
+    },
+    {
+      "Brand_Name": "Brand_1574",
+      "Country": "Australia",
+      "Sustainability_Rating": "A",
+      "Eco_Score": 91.74,
+      "Carbon_Footprint_MT": 61.74,
+      "Material_Type": "Recycled Polyester",
+      "Certifications": "OEKO-TEX"
+    },
+    {
+      "Brand_Name": "Brand_3751",
+      "Country": "USA",
+      "Sustainability_Rating": "A",
+      "Eco_Score": 91.16,
+      "Carbon_Footprint_MT": 21.3,
+      "Material_Type": "Hemp",
+      "Certifications": "GOTS"
+    },
+    {
+      "Brand_Name": "Brand_870",
+      "Country": "China",
+      "Sustainability_Rating": "A",
+      "Eco_Score": 90.42,
+      "Carbon_Footprint_MT": 52.16,
+      "Material_Type": "Recycled Polyester",
+      "Certifications": "B Corp"
+    },
+    {
+      "Brand_Name": "Brand_2132",
+      "Country": "Germany",
+      "Sustainability_Rating": "A",
+      "Eco_Score": 89.99,
+      "Carbon_Footprint_MT": 46.57,
+      "Material_Type": "Recycled Polyester",
+      "Certifications": "GOTS"
+    },
+    {
+      "Brand_Name": "Brand_3393",
+      "Country": "UK",
+      "Sustainability_Rating": "A",
+      "Eco_Score": 89.96,
+      "Carbon_Footprint_MT": 26.82,
+      "Material_Type": "Vegan Leather",
+      "Certifications": "Fair Trade"
+    }
+  ],
+  "scatter_sample": [
+    {
+      "Carbon_Footprint_MT": 218.43,
+      "Water_Usage_Liters": 1224676.84,
+      "Waste_Production_KG": 3958.06,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 24.22,
+      "Water_Usage_Liters": 699915.22,
+      "Waste_Production_KG": 72591.3,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 161.02,
+      "Water_Usage_Liters": 4266823.06,
+      "Waste_Production_KG": 17374.61,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 111.02,
+      "Water_Usage_Liters": 2756284.15,
+      "Waste_Production_KG": 8950.49,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 380.23,
+      "Water_Usage_Liters": 4920009.38,
+      "Waste_Production_KG": 60178.69,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 318.41,
+      "Water_Usage_Liters": 464640.22,
+      "Waste_Production_KG": 2896.03,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 462.05,
+      "Water_Usage_Liters": 4771576.6,
+      "Waste_Production_KG": 90232.72,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Vegan Leather",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 261.56,
+      "Water_Usage_Liters": 3291455.87,
+      "Waste_Production_KG": 22386.13,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 15.44,
+      "Water_Usage_Liters": 3331973.79,
+      "Waste_Production_KG": 5114.72,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 296.16,
+      "Water_Usage_Liters": 2809960.72,
+      "Waste_Production_KG": 70260.95,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 102.99,
+      "Water_Usage_Liters": 4463849.89,
+      "Waste_Production_KG": 16540.93,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 94.13,
+      "Water_Usage_Liters": 4403452.22,
+      "Waste_Production_KG": 99195.5,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 177.23,
+      "Water_Usage_Liters": 1243608.0,
+      "Waste_Production_KG": 43481.57,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 84.94,
+      "Water_Usage_Liters": 1179488.94,
+      "Waste_Production_KG": 14092.04,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 429.28,
+      "Water_Usage_Liters": 4359454.26,
+      "Waste_Production_KG": 85757.53,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Vegan Leather",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 207.02,
+      "Water_Usage_Liters": 169292.82,
+      "Waste_Production_KG": 33583.2,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 234.76,
+      "Water_Usage_Liters": 3579064.77,
+      "Waste_Production_KG": 66279.92,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 351.04,
+      "Water_Usage_Liters": 3931709.07,
+      "Waste_Production_KG": 63919.31,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 18.17,
+      "Water_Usage_Liters": 4687639.25,
+      "Waste_Production_KG": 33327.49,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 131.54,
+      "Water_Usage_Liters": 1039998.98,
+      "Waste_Production_KG": 80197.81,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 451.12,
+      "Water_Usage_Liters": 760775.91,
+      "Waste_Production_KG": 19874.55,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 103.59,
+      "Water_Usage_Liters": 3096769.38,
+      "Waste_Production_KG": 53330.5,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 289.5,
+      "Water_Usage_Liters": 3218264.69,
+      "Waste_Production_KG": 79524.81,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 439.61,
+      "Water_Usage_Liters": 4208224.19,
+      "Waste_Production_KG": 5524.65,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 378.24,
+      "Water_Usage_Liters": 4340786.12,
+      "Waste_Production_KG": 22275.23,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 298.73,
+      "Water_Usage_Liters": 707667.93,
+      "Waste_Production_KG": 26757.84,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 148.04,
+      "Water_Usage_Liters": 972806.54,
+      "Waste_Production_KG": 45563.87,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 333.79,
+      "Water_Usage_Liters": 3398477.35,
+      "Waste_Production_KG": 57785.56,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 259.39,
+      "Water_Usage_Liters": 4217653.48,
+      "Waste_Production_KG": 56376.79,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 214.4,
+      "Water_Usage_Liters": 2485789.85,
+      "Waste_Production_KG": 76265.19,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 241.58,
+      "Water_Usage_Liters": 4175821.77,
+      "Waste_Production_KG": 8107.38,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 394.06,
+      "Water_Usage_Liters": 3243618.67,
+      "Waste_Production_KG": 67672.22,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Hemp",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 262.27,
+      "Water_Usage_Liters": 4582253.84,
+      "Waste_Production_KG": 66591.55,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 149.43,
+      "Water_Usage_Liters": 4372923.44,
+      "Waste_Production_KG": 69760.48,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 234.08,
+      "Water_Usage_Liters": 4905966.89,
+      "Waste_Production_KG": 36913.34,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 348.33,
+      "Water_Usage_Liters": 4469498.33,
+      "Waste_Production_KG": 12337.09,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 401.91,
+      "Water_Usage_Liters": 244799.26,
+      "Waste_Production_KG": 66885.98,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 336.43,
+      "Water_Usage_Liters": 1708093.8,
+      "Waste_Production_KG": 80827.76,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 147.1,
+      "Water_Usage_Liters": 2729156.08,
+      "Waste_Production_KG": 87380.21,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 124.61,
+      "Water_Usage_Liters": 4144091.49,
+      "Waste_Production_KG": 32876.52,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 31.11,
+      "Water_Usage_Liters": 4248870.43,
+      "Waste_Production_KG": 28896.1,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 480.1,
+      "Water_Usage_Liters": 2584355.48,
+      "Waste_Production_KG": 26679.38,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 489.8,
+      "Water_Usage_Liters": 2188946.02,
+      "Waste_Production_KG": 24376.21,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 210.33,
+      "Water_Usage_Liters": 114705.01,
+      "Waste_Production_KG": 58293.14,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 62.7,
+      "Water_Usage_Liters": 4363314.73,
+      "Waste_Production_KG": 95197.13,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 52.62,
+      "Water_Usage_Liters": 4556696.16,
+      "Waste_Production_KG": 87148.52,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 240.06,
+      "Water_Usage_Liters": 3949294.13,
+      "Waste_Production_KG": 81570.7,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 442.43,
+      "Water_Usage_Liters": 321662.08,
+      "Waste_Production_KG": 91750.19,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 306.66,
+      "Water_Usage_Liters": 2755208.48,
+      "Waste_Production_KG": 10936.82,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 207.8,
+      "Water_Usage_Liters": 290891.47,
+      "Waste_Production_KG": 75526.15,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 104.64,
+      "Water_Usage_Liters": 960038.82,
+      "Waste_Production_KG": 61656.68,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 121.97,
+      "Water_Usage_Liters": 1557191.57,
+      "Waste_Production_KG": 97206.88,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 416.75,
+      "Water_Usage_Liters": 1644365.03,
+      "Waste_Production_KG": 29097.83,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 476.19,
+      "Water_Usage_Liters": 3180896.37,
+      "Waste_Production_KG": 34466.59,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Vegan Leather",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 332.84,
+      "Water_Usage_Liters": 379806.73,
+      "Waste_Production_KG": 61545.12,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 421.09,
+      "Water_Usage_Liters": 1086635.25,
+      "Waste_Production_KG": 57927.91,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 319.98,
+      "Water_Usage_Liters": 3840432.06,
+      "Waste_Production_KG": 4089.43,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 464.75,
+      "Water_Usage_Liters": 986897.93,
+      "Waste_Production_KG": 52450.87,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 207.74,
+      "Water_Usage_Liters": 1998801.61,
+      "Waste_Production_KG": 35769.73,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 446.65,
+      "Water_Usage_Liters": 2382333.41,
+      "Waste_Production_KG": 75083.07,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 53.16,
+      "Water_Usage_Liters": 357792.7,
+      "Waste_Production_KG": 59407.19,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 211.62,
+      "Water_Usage_Liters": 758490.07,
+      "Waste_Production_KG": 92896.16,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 173.93,
+      "Water_Usage_Liters": 434142.38,
+      "Waste_Production_KG": 46905.65,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 395.54,
+      "Water_Usage_Liters": 3206982.74,
+      "Waste_Production_KG": 6252.41,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 481.88,
+      "Water_Usage_Liters": 3002520.22,
+      "Waste_Production_KG": 91606.69,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 212.06,
+      "Water_Usage_Liters": 280294.04,
+      "Waste_Production_KG": 23436.75,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 467.19,
+      "Water_Usage_Liters": 2884506.84,
+      "Waste_Production_KG": 53576.17,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 386.68,
+      "Water_Usage_Liters": 1494891.28,
+      "Waste_Production_KG": 45916.88,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 460.05,
+      "Water_Usage_Liters": 957216.49,
+      "Waste_Production_KG": 73068.89,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 156.78,
+      "Water_Usage_Liters": 778050.61,
+      "Waste_Production_KG": 65592.01,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 287.26,
+      "Water_Usage_Liters": 922961.39,
+      "Waste_Production_KG": 6902.29,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 153.9,
+      "Water_Usage_Liters": 1592517.01,
+      "Waste_Production_KG": 26225.12,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 485.43,
+      "Water_Usage_Liters": 735810.74,
+      "Waste_Production_KG": 97540.45,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Hemp",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 68.24,
+      "Water_Usage_Liters": 2342347.78,
+      "Waste_Production_KG": 64214.57,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 459.89,
+      "Water_Usage_Liters": 4294407.37,
+      "Waste_Production_KG": 54337.98,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Recycled Polyester",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 405.71,
+      "Water_Usage_Liters": 3270378.33,
+      "Waste_Production_KG": 64083.51,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 282.79,
+      "Water_Usage_Liters": 1364305.06,
+      "Waste_Production_KG": 1078.55,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 445.75,
+      "Water_Usage_Liters": 2218907.19,
+      "Waste_Production_KG": 76628.07,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 255.39,
+      "Water_Usage_Liters": 361355.97,
+      "Waste_Production_KG": 93231.76,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 265.2,
+      "Water_Usage_Liters": 892927.35,
+      "Waste_Production_KG": 97032.07,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 293.47,
+      "Water_Usage_Liters": 4923894.28,
+      "Waste_Production_KG": 11561.8,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 49.36,
+      "Water_Usage_Liters": 4618539.13,
+      "Waste_Production_KG": 2584.17,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 375.08,
+      "Water_Usage_Liters": 56655.61,
+      "Waste_Production_KG": 51724.01,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 394.29,
+      "Water_Usage_Liters": 2135218.62,
+      "Waste_Production_KG": 2398.41,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 303.78,
+      "Water_Usage_Liters": 3564578.17,
+      "Waste_Production_KG": 6142.68,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 128.07,
+      "Water_Usage_Liters": 1238469.56,
+      "Waste_Production_KG": 54421.74,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 335.09,
+      "Water_Usage_Liters": 403954.97,
+      "Waste_Production_KG": 22828.03,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 248.8,
+      "Water_Usage_Liters": 1972179.0,
+      "Waste_Production_KG": 33049.65,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 447.71,
+      "Water_Usage_Liters": 1856658.06,
+      "Waste_Production_KG": 26046.76,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 486.52,
+      "Water_Usage_Liters": 82140.3,
+      "Waste_Production_KG": 50191.44,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 234.1,
+      "Water_Usage_Liters": 1069069.58,
+      "Waste_Production_KG": 20145.47,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 401.5,
+      "Water_Usage_Liters": 182462.67,
+      "Waste_Production_KG": 63446.83,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 495.53,
+      "Water_Usage_Liters": 2469601.61,
+      "Waste_Production_KG": 16270.36,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 418.25,
+      "Water_Usage_Liters": 2416857.95,
+      "Waste_Production_KG": 11371.3,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 197.0,
+      "Water_Usage_Liters": 1648665.09,
+      "Waste_Production_KG": 87092.37,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 201.52,
+      "Water_Usage_Liters": 2961519.07,
+      "Waste_Production_KG": 49116.81,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 132.36,
+      "Water_Usage_Liters": 3625432.33,
+      "Waste_Production_KG": 88454.87,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 368.19,
+      "Water_Usage_Liters": 382688.03,
+      "Waste_Production_KG": 60337.05,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 310.11,
+      "Water_Usage_Liters": 3287683.39,
+      "Waste_Production_KG": 84122.26,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 290.71,
+      "Water_Usage_Liters": 267076.88,
+      "Waste_Production_KG": 62010.62,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 124.81,
+      "Water_Usage_Liters": 3578456.07,
+      "Waste_Production_KG": 41009.2,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 102.63,
+      "Water_Usage_Liters": 1873100.94,
+      "Waste_Production_KG": 87793.05,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 202.45,
+      "Water_Usage_Liters": 3717951.16,
+      "Waste_Production_KG": 43820.43,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 473.07,
+      "Water_Usage_Liters": 279230.02,
+      "Waste_Production_KG": 62678.8,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 128.33,
+      "Water_Usage_Liters": 3122360.67,
+      "Waste_Production_KG": 40394.85,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 146.6,
+      "Water_Usage_Liters": 178605.84,
+      "Waste_Production_KG": 34967.89,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 369.27,
+      "Water_Usage_Liters": 3033377.71,
+      "Waste_Production_KG": 78010.68,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 2.39,
+      "Water_Usage_Liters": 1883166.6,
+      "Waste_Production_KG": 92062.11,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 473.24,
+      "Water_Usage_Liters": 1735667.77,
+      "Waste_Production_KG": 96922.11,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 393.51,
+      "Water_Usage_Liters": 2546056.5,
+      "Waste_Production_KG": 30769.8,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 172.63,
+      "Water_Usage_Liters": 1566564.77,
+      "Waste_Production_KG": 14560.69,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 76.18,
+      "Water_Usage_Liters": 2262550.93,
+      "Waste_Production_KG": 54066.38,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 202.53,
+      "Water_Usage_Liters": 3828780.97,
+      "Waste_Production_KG": 31130.77,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 463.21,
+      "Water_Usage_Liters": 4470740.86,
+      "Waste_Production_KG": 31525.74,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 465.18,
+      "Water_Usage_Liters": 985323.73,
+      "Waste_Production_KG": 70032.84,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 14.35,
+      "Water_Usage_Liters": 4999596.61,
+      "Waste_Production_KG": 73490.01,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 242.81,
+      "Water_Usage_Liters": 2601859.56,
+      "Waste_Production_KG": 17393.71,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 142.83,
+      "Water_Usage_Liters": 4117126.28,
+      "Waste_Production_KG": 79612.37,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 399.73,
+      "Water_Usage_Liters": 1361722.75,
+      "Waste_Production_KG": 84365.0,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 307.03,
+      "Water_Usage_Liters": 1977925.04,
+      "Waste_Production_KG": 93930.71,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 427.37,
+      "Water_Usage_Liters": 3948525.95,
+      "Waste_Production_KG": 82003.08,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 383.76,
+      "Water_Usage_Liters": 3488085.38,
+      "Waste_Production_KG": 75300.66,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 456.98,
+      "Water_Usage_Liters": 2461185.58,
+      "Waste_Production_KG": 51367.09,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 61.2,
+      "Water_Usage_Liters": 693745.82,
+      "Waste_Production_KG": 40785.65,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 364.01,
+      "Water_Usage_Liters": 3893926.79,
+      "Waste_Production_KG": 48378.29,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Recycled Polyester",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 76.41,
+      "Water_Usage_Liters": 2100054.76,
+      "Waste_Production_KG": 56573.2,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 252.9,
+      "Water_Usage_Liters": 1264562.43,
+      "Waste_Production_KG": 48567.17,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 297.51,
+      "Water_Usage_Liters": 2127201.33,
+      "Waste_Production_KG": 91037.39,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 179.35,
+      "Water_Usage_Liters": 3112241.71,
+      "Waste_Production_KG": 14131.4,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 281.32,
+      "Water_Usage_Liters": 1467130.55,
+      "Waste_Production_KG": 50954.76,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 264.25,
+      "Water_Usage_Liters": 1735444.91,
+      "Waste_Production_KG": 63231.37,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 192.47,
+      "Water_Usage_Liters": 376682.38,
+      "Waste_Production_KG": 97937.34,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 264.67,
+      "Water_Usage_Liters": 4350498.21,
+      "Waste_Production_KG": 50585.88,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 333.07,
+      "Water_Usage_Liters": 2556455.27,
+      "Waste_Production_KG": 59038.77,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 307.87,
+      "Water_Usage_Liters": 4002820.1,
+      "Waste_Production_KG": 95121.3,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Organic Cotton",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 355.84,
+      "Water_Usage_Liters": 3085902.98,
+      "Waste_Production_KG": 57238.59,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 420.49,
+      "Water_Usage_Liters": 4705440.12,
+      "Waste_Production_KG": 88149.86,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 229.33,
+      "Water_Usage_Liters": 4895683.9,
+      "Waste_Production_KG": 96516.5,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 152.95,
+      "Water_Usage_Liters": 4924539.95,
+      "Waste_Production_KG": 25776.27,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 419.56,
+      "Water_Usage_Liters": 4716317.57,
+      "Waste_Production_KG": 95114.67,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 256.79,
+      "Water_Usage_Liters": 487346.1,
+      "Waste_Production_KG": 37288.46,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 477.92,
+      "Water_Usage_Liters": 2016831.39,
+      "Waste_Production_KG": 57791.49,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Hemp",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 332.31,
+      "Water_Usage_Liters": 344919.65,
+      "Waste_Production_KG": 10964.79,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 411.04,
+      "Water_Usage_Liters": 1378315.05,
+      "Waste_Production_KG": 84499.82,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 379.89,
+      "Water_Usage_Liters": 4101961.12,
+      "Waste_Production_KG": 91233.8,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Vegan Leather",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 318.06,
+      "Water_Usage_Liters": 4634946.01,
+      "Waste_Production_KG": 15346.37,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 63.51,
+      "Water_Usage_Liters": 963919.47,
+      "Waste_Production_KG": 79782.94,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 330.73,
+      "Water_Usage_Liters": 4415215.07,
+      "Waste_Production_KG": 91070.87,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 122.71,
+      "Water_Usage_Liters": 2595007.97,
+      "Waste_Production_KG": 88685.69,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 14.93,
+      "Water_Usage_Liters": 1165610.18,
+      "Waste_Production_KG": 79340.39,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 418.61,
+      "Water_Usage_Liters": 3473953.16,
+      "Waste_Production_KG": 63303.16,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Tencel",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 59.98,
+      "Water_Usage_Liters": 83068.41,
+      "Waste_Production_KG": 4432.52,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 188.66,
+      "Water_Usage_Liters": 3407006.56,
+      "Waste_Production_KG": 55199.0,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 183.99,
+      "Water_Usage_Liters": 887454.28,
+      "Waste_Production_KG": 68435.58,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 177.02,
+      "Water_Usage_Liters": 1331207.39,
+      "Waste_Production_KG": 30901.56,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 105.99,
+      "Water_Usage_Liters": 2376533.15,
+      "Waste_Production_KG": 42301.34,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 271.49,
+      "Water_Usage_Liters": 3622407.76,
+      "Waste_Production_KG": 91635.59,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 456.18,
+      "Water_Usage_Liters": 2298106.26,
+      "Waste_Production_KG": 27290.31,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 493.52,
+      "Water_Usage_Liters": 952013.07,
+      "Waste_Production_KG": 20309.7,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 297.34,
+      "Water_Usage_Liters": 1758183.49,
+      "Waste_Production_KG": 25786.87,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 162.13,
+      "Water_Usage_Liters": 3416993.61,
+      "Waste_Production_KG": 45890.69,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 21.9,
+      "Water_Usage_Liters": 560535.45,
+      "Waste_Production_KG": 79356.97,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 473.96,
+      "Water_Usage_Liters": 3844538.19,
+      "Waste_Production_KG": 92924.97,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 449.46,
+      "Water_Usage_Liters": 570267.76,
+      "Waste_Production_KG": 63169.37,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 76.74,
+      "Water_Usage_Liters": 1231908.68,
+      "Waste_Production_KG": 57900.19,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 94.01,
+      "Water_Usage_Liters": 3998841.45,
+      "Waste_Production_KG": 84660.72,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 368.07,
+      "Water_Usage_Liters": 4096853.58,
+      "Waste_Production_KG": 69665.93,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 155.43,
+      "Water_Usage_Liters": 3675980.87,
+      "Waste_Production_KG": 89983.09,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 327.36,
+      "Water_Usage_Liters": 4423046.04,
+      "Waste_Production_KG": 59794.6,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 11.92,
+      "Water_Usage_Liters": 3461774.64,
+      "Waste_Production_KG": 85132.07,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 226.26,
+      "Water_Usage_Liters": 873414.39,
+      "Waste_Production_KG": 85351.02,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 246.98,
+      "Water_Usage_Liters": 1637704.07,
+      "Waste_Production_KG": 42171.35,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 90.74,
+      "Water_Usage_Liters": 2998331.51,
+      "Waste_Production_KG": 86118.62,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 400.5,
+      "Water_Usage_Liters": 1450861.53,
+      "Waste_Production_KG": 63544.83,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 126.01,
+      "Water_Usage_Liters": 4584379.6,
+      "Waste_Production_KG": 73934.28,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 321.04,
+      "Water_Usage_Liters": 2887813.2,
+      "Waste_Production_KG": 73777.6,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 126.04,
+      "Water_Usage_Liters": 3221312.02,
+      "Waste_Production_KG": 64912.88,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 478.87,
+      "Water_Usage_Liters": 4634301.87,
+      "Waste_Production_KG": 32637.37,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 448.39,
+      "Water_Usage_Liters": 4523310.75,
+      "Waste_Production_KG": 43571.41,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 186.98,
+      "Water_Usage_Liters": 4543075.88,
+      "Waste_Production_KG": 74718.05,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 325.4,
+      "Water_Usage_Liters": 3499512.96,
+      "Waste_Production_KG": 26982.41,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 261.97,
+      "Water_Usage_Liters": 1590748.1,
+      "Waste_Production_KG": 19930.54,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 476.46,
+      "Water_Usage_Liters": 4821891.58,
+      "Waste_Production_KG": 3765.41,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 372.61,
+      "Water_Usage_Liters": 4983654.73,
+      "Waste_Production_KG": 47211.36,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Tencel",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 396.42,
+      "Water_Usage_Liters": 1323339.86,
+      "Waste_Production_KG": 19562.74,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 124.97,
+      "Water_Usage_Liters": 4887751.39,
+      "Waste_Production_KG": 32932.83,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 474.29,
+      "Water_Usage_Liters": 235858.66,
+      "Waste_Production_KG": 39986.39,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 222.64,
+      "Water_Usage_Liters": 1523472.15,
+      "Waste_Production_KG": 26949.84,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 100.35,
+      "Water_Usage_Liters": 4934809.43,
+      "Waste_Production_KG": 10104.95,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 138.0,
+      "Water_Usage_Liters": 1705011.34,
+      "Waste_Production_KG": 19438.57,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 389.05,
+      "Water_Usage_Liters": 1284316.07,
+      "Waste_Production_KG": 38015.92,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 225.05,
+      "Water_Usage_Liters": 1104234.19,
+      "Waste_Production_KG": 39691.27,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 439.42,
+      "Water_Usage_Liters": 2689604.5,
+      "Waste_Production_KG": 71945.02,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 300.78,
+      "Water_Usage_Liters": 3843981.76,
+      "Waste_Production_KG": 35681.68,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 291.47,
+      "Water_Usage_Liters": 2972854.6,
+      "Waste_Production_KG": 37791.12,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 436.04,
+      "Water_Usage_Liters": 2052292.66,
+      "Waste_Production_KG": 1835.86,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 202.0,
+      "Water_Usage_Liters": 3192437.52,
+      "Waste_Production_KG": 5002.22,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 109.86,
+      "Water_Usage_Liters": 4313210.42,
+      "Waste_Production_KG": 33106.79,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 78.83,
+      "Water_Usage_Liters": 2862328.29,
+      "Waste_Production_KG": 14642.15,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 29.24,
+      "Water_Usage_Liters": 1314086.97,
+      "Waste_Production_KG": 59883.68,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 82.9,
+      "Water_Usage_Liters": 2306080.45,
+      "Waste_Production_KG": 10379.22,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 184.09,
+      "Water_Usage_Liters": 2206445.72,
+      "Waste_Production_KG": 13839.54,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 51.62,
+      "Water_Usage_Liters": 3382956.46,
+      "Waste_Production_KG": 11998.15,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 467.21,
+      "Water_Usage_Liters": 1864498.27,
+      "Waste_Production_KG": 87721.4,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Hemp",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 405.52,
+      "Water_Usage_Liters": 3579678.54,
+      "Waste_Production_KG": 15449.83,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 479.33,
+      "Water_Usage_Liters": 3331125.2,
+      "Waste_Production_KG": 35785.2,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 280.95,
+      "Water_Usage_Liters": 2802679.81,
+      "Waste_Production_KG": 82581.25,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Recycled Polyester",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 246.78,
+      "Water_Usage_Liters": 4961182.28,
+      "Waste_Production_KG": 11626.02,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 235.46,
+      "Water_Usage_Liters": 4144189.27,
+      "Waste_Production_KG": 96889.7,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 70.09,
+      "Water_Usage_Liters": 92717.92,
+      "Waste_Production_KG": 27323.12,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 468.95,
+      "Water_Usage_Liters": 1824387.85,
+      "Waste_Production_KG": 69841.17,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Vegan Leather",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 167.86,
+      "Water_Usage_Liters": 2959852.56,
+      "Waste_Production_KG": 65341.61,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 230.52,
+      "Water_Usage_Liters": 4826535.28,
+      "Waste_Production_KG": 3210.33,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 70.25,
+      "Water_Usage_Liters": 2301463.45,
+      "Waste_Production_KG": 77792.66,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 104.93,
+      "Water_Usage_Liters": 827473.56,
+      "Waste_Production_KG": 86345.23,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 329.29,
+      "Water_Usage_Liters": 1133875.27,
+      "Waste_Production_KG": 60781.57,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 118.08,
+      "Water_Usage_Liters": 2913739.23,
+      "Waste_Production_KG": 60808.4,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 202.62,
+      "Water_Usage_Liters": 428003.19,
+      "Waste_Production_KG": 54332.45,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 401.75,
+      "Water_Usage_Liters": 3708925.93,
+      "Waste_Production_KG": 77049.79,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 312.25,
+      "Water_Usage_Liters": 2508373.24,
+      "Waste_Production_KG": 80707.4,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 295.23,
+      "Water_Usage_Liters": 357780.39,
+      "Waste_Production_KG": 90312.31,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 202.99,
+      "Water_Usage_Liters": 4020180.62,
+      "Waste_Production_KG": 75939.94,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 267.93,
+      "Water_Usage_Liters": 1776853.67,
+      "Waste_Production_KG": 11912.61,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 246.54,
+      "Water_Usage_Liters": 3168122.69,
+      "Waste_Production_KG": 54295.5,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 187.97,
+      "Water_Usage_Liters": 1883933.77,
+      "Waste_Production_KG": 55248.26,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 223.07,
+      "Water_Usage_Liters": 3578307.37,
+      "Waste_Production_KG": 29470.55,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 134.22,
+      "Water_Usage_Liters": 3199545.62,
+      "Waste_Production_KG": 57441.19,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 463.75,
+      "Water_Usage_Liters": 2536678.22,
+      "Waste_Production_KG": 13621.72,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 370.06,
+      "Water_Usage_Liters": 891067.39,
+      "Waste_Production_KG": 30771.64,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 154.18,
+      "Water_Usage_Liters": 2761045.49,
+      "Waste_Production_KG": 95033.29,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 17.64,
+      "Water_Usage_Liters": 348768.36,
+      "Waste_Production_KG": 94868.94,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 433.13,
+      "Water_Usage_Liters": 1648203.49,
+      "Waste_Production_KG": 74810.98,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 475.67,
+      "Water_Usage_Liters": 879409.31,
+      "Waste_Production_KG": 9832.54,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 166.64,
+      "Water_Usage_Liters": 649219.01,
+      "Waste_Production_KG": 73983.2,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 389.34,
+      "Water_Usage_Liters": 4840802.2,
+      "Waste_Production_KG": 85219.43,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Recycled Polyester",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 113.27,
+      "Water_Usage_Liters": 2894843.89,
+      "Waste_Production_KG": 12039.36,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 41.5,
+      "Water_Usage_Liters": 1902934.22,
+      "Waste_Production_KG": 95275.12,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 31.1,
+      "Water_Usage_Liters": 3044748.75,
+      "Waste_Production_KG": 25458.8,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 28.49,
+      "Water_Usage_Liters": 2322038.99,
+      "Waste_Production_KG": 47651.74,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 433.79,
+      "Water_Usage_Liters": 4900335.96,
+      "Waste_Production_KG": 77702.73,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 85.62,
+      "Water_Usage_Liters": 4575682.55,
+      "Waste_Production_KG": 66804.49,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 11.35,
+      "Water_Usage_Liters": 2751336.9,
+      "Waste_Production_KG": 62508.72,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 321.76,
+      "Water_Usage_Liters": 768139.01,
+      "Waste_Production_KG": 45242.69,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 57.42,
+      "Water_Usage_Liters": 1390260.39,
+      "Waste_Production_KG": 74765.28,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 70.38,
+      "Water_Usage_Liters": 3441894.61,
+      "Waste_Production_KG": 6661.2,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 102.55,
+      "Water_Usage_Liters": 4180320.49,
+      "Waste_Production_KG": 50314.24,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 365.01,
+      "Water_Usage_Liters": 4076068.71,
+      "Waste_Production_KG": 37093.73,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 39.16,
+      "Water_Usage_Liters": 4640198.48,
+      "Waste_Production_KG": 68968.92,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 135.57,
+      "Water_Usage_Liters": 4278557.99,
+      "Waste_Production_KG": 64196.25,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 294.25,
+      "Water_Usage_Liters": 3343129.6,
+      "Waste_Production_KG": 31257.86,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 243.44,
+      "Water_Usage_Liters": 4051757.01,
+      "Waste_Production_KG": 48863.34,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Hemp",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 206.26,
+      "Water_Usage_Liters": 3607328.72,
+      "Waste_Production_KG": 64669.03,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 384.88,
+      "Water_Usage_Liters": 1926861.78,
+      "Waste_Production_KG": 86056.03,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 74.01,
+      "Water_Usage_Liters": 4562674.64,
+      "Waste_Production_KG": 24136.88,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 326.21,
+      "Water_Usage_Liters": 2672092.51,
+      "Waste_Production_KG": 40540.06,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 240.91,
+      "Water_Usage_Liters": 4088887.9,
+      "Waste_Production_KG": 53391.1,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 394.78,
+      "Water_Usage_Liters": 2868202.64,
+      "Waste_Production_KG": 74436.13,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Organic Cotton",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 155.25,
+      "Water_Usage_Liters": 3514888.93,
+      "Waste_Production_KG": 41578.57,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 437.5,
+      "Water_Usage_Liters": 2495097.86,
+      "Waste_Production_KG": 6488.33,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 281.89,
+      "Water_Usage_Liters": 1793996.55,
+      "Waste_Production_KG": 29151.39,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 187.48,
+      "Water_Usage_Liters": 2654914.39,
+      "Waste_Production_KG": 15190.62,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 55.94,
+      "Water_Usage_Liters": 3260607.32,
+      "Waste_Production_KG": 51593.52,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 188.32,
+      "Water_Usage_Liters": 2272475.74,
+      "Waste_Production_KG": 24633.19,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 41.19,
+      "Water_Usage_Liters": 1041639.21,
+      "Waste_Production_KG": 92658.98,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 239.35,
+      "Water_Usage_Liters": 2203347.64,
+      "Waste_Production_KG": 96754.28,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 133.97,
+      "Water_Usage_Liters": 2055248.5,
+      "Waste_Production_KG": 16115.29,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 185.18,
+      "Water_Usage_Liters": 4192899.13,
+      "Waste_Production_KG": 98558.56,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 378.53,
+      "Water_Usage_Liters": 3391057.16,
+      "Waste_Production_KG": 37427.95,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 333.75,
+      "Water_Usage_Liters": 1448830.56,
+      "Waste_Production_KG": 1133.21,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 103.72,
+      "Water_Usage_Liters": 2630571.62,
+      "Waste_Production_KG": 62657.81,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 103.39,
+      "Water_Usage_Liters": 2435509.39,
+      "Waste_Production_KG": 97320.4,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 62.97,
+      "Water_Usage_Liters": 4990819.08,
+      "Waste_Production_KG": 10074.1,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 362.5,
+      "Water_Usage_Liters": 1704968.08,
+      "Waste_Production_KG": 71668.51,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 238.0,
+      "Water_Usage_Liters": 4611134.76,
+      "Waste_Production_KG": 31944.35,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 367.41,
+      "Water_Usage_Liters": 4778444.19,
+      "Waste_Production_KG": 48745.53,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 251.42,
+      "Water_Usage_Liters": 4335723.24,
+      "Waste_Production_KG": 83691.52,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 267.24,
+      "Water_Usage_Liters": 4847632.25,
+      "Waste_Production_KG": 79717.17,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Hemp",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 240.42,
+      "Water_Usage_Liters": 2194711.35,
+      "Waste_Production_KG": 10442.69,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 221.83,
+      "Water_Usage_Liters": 3232837.62,
+      "Waste_Production_KG": 97765.16,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Hemp",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 130.81,
+      "Water_Usage_Liters": 2481986.28,
+      "Waste_Production_KG": 48769.76,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 74.62,
+      "Water_Usage_Liters": 3472161.94,
+      "Waste_Production_KG": 65313.94,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 186.63,
+      "Water_Usage_Liters": 2218131.45,
+      "Waste_Production_KG": 98925.73,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 260.55,
+      "Water_Usage_Liters": 693108.09,
+      "Waste_Production_KG": 12799.87,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 224.65,
+      "Water_Usage_Liters": 1548021.8,
+      "Waste_Production_KG": 37182.57,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 446.59,
+      "Water_Usage_Liters": 3504847.3,
+      "Waste_Production_KG": 38005.94,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 495.82,
+      "Water_Usage_Liters": 52687.08,
+      "Waste_Production_KG": 27557.4,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 334.34,
+      "Water_Usage_Liters": 779339.77,
+      "Waste_Production_KG": 80780.56,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 425.33,
+      "Water_Usage_Liters": 1031180.12,
+      "Waste_Production_KG": 73946.93,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 92.63,
+      "Water_Usage_Liters": 1589731.87,
+      "Waste_Production_KG": 75966.86,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 470.28,
+      "Water_Usage_Liters": 1430814.26,
+      "Waste_Production_KG": 4713.06,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 323.4,
+      "Water_Usage_Liters": 3109006.18,
+      "Waste_Production_KG": 63263.57,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 342.44,
+      "Water_Usage_Liters": 2701193.69,
+      "Waste_Production_KG": 58797.42,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 45.97,
+      "Water_Usage_Liters": 3431078.72,
+      "Waste_Production_KG": 42577.35,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 58.78,
+      "Water_Usage_Liters": 555597.57,
+      "Waste_Production_KG": 34082.29,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 474.7,
+      "Water_Usage_Liters": 1580162.53,
+      "Waste_Production_KG": 22732.05,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 40.05,
+      "Water_Usage_Liters": 4978077.44,
+      "Waste_Production_KG": 12817.51,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 460.59,
+      "Water_Usage_Liters": 1087178.59,
+      "Waste_Production_KG": 16766.49,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Hemp",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 108.25,
+      "Water_Usage_Liters": 4768213.39,
+      "Waste_Production_KG": 28088.32,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 356.24,
+      "Water_Usage_Liters": 2261695.47,
+      "Waste_Production_KG": 78206.66,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 297.04,
+      "Water_Usage_Liters": 3133376.39,
+      "Waste_Production_KG": 52347.91,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 98.38,
+      "Water_Usage_Liters": 740101.96,
+      "Waste_Production_KG": 53177.71,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 292.56,
+      "Water_Usage_Liters": 2826311.89,
+      "Waste_Production_KG": 25654.3,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 228.17,
+      "Water_Usage_Liters": 2466919.91,
+      "Waste_Production_KG": 19444.33,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 257.09,
+      "Water_Usage_Liters": 3991350.14,
+      "Waste_Production_KG": 23397.26,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 335.18,
+      "Water_Usage_Liters": 3354526.31,
+      "Waste_Production_KG": 73303.33,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Recycled Polyester",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 348.38,
+      "Water_Usage_Liters": 1648121.62,
+      "Waste_Production_KG": 89563.34,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Hemp",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 172.42,
+      "Water_Usage_Liters": 1931896.87,
+      "Waste_Production_KG": 54838.6,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 58.18,
+      "Water_Usage_Liters": 392269.47,
+      "Waste_Production_KG": 27598.68,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 300.86,
+      "Water_Usage_Liters": 1589558.68,
+      "Waste_Production_KG": 39976.0,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 419.89,
+      "Water_Usage_Liters": 3366161.66,
+      "Waste_Production_KG": 19115.57,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 478.41,
+      "Water_Usage_Liters": 1119433.33,
+      "Waste_Production_KG": 19945.09,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 111.73,
+      "Water_Usage_Liters": 4836556.71,
+      "Waste_Production_KG": 78264.47,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 283.67,
+      "Water_Usage_Liters": 4669517.68,
+      "Waste_Production_KG": 12999.41,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 222.84,
+      "Water_Usage_Liters": 1390777.62,
+      "Waste_Production_KG": 63325.34,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 225.61,
+      "Water_Usage_Liters": 933150.37,
+      "Waste_Production_KG": 9928.09,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 135.79,
+      "Water_Usage_Liters": 3903911.71,
+      "Waste_Production_KG": 15300.16,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 300.59,
+      "Water_Usage_Liters": 2905766.52,
+      "Waste_Production_KG": 43127.73,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 134.29,
+      "Water_Usage_Liters": 1675918.75,
+      "Waste_Production_KG": 13866.46,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 153.37,
+      "Water_Usage_Liters": 836182.93,
+      "Waste_Production_KG": 42677.17,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 99.8,
+      "Water_Usage_Liters": 1392929.52,
+      "Waste_Production_KG": 53702.55,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 191.38,
+      "Water_Usage_Liters": 3611313.2,
+      "Waste_Production_KG": 78928.25,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 35.87,
+      "Water_Usage_Liters": 4758985.17,
+      "Waste_Production_KG": 96810.01,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 66.72,
+      "Water_Usage_Liters": 4333533.97,
+      "Waste_Production_KG": 74917.11,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 308.26,
+      "Water_Usage_Liters": 349475.98,
+      "Waste_Production_KG": 78268.42,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 233.82,
+      "Water_Usage_Liters": 795647.63,
+      "Waste_Production_KG": 31346.7,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 230.05,
+      "Water_Usage_Liters": 4354760.42,
+      "Waste_Production_KG": 23201.06,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 41.85,
+      "Water_Usage_Liters": 1145984.18,
+      "Waste_Production_KG": 60491.11,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 484.11,
+      "Water_Usage_Liters": 4754844.28,
+      "Waste_Production_KG": 7073.79,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 98.57,
+      "Water_Usage_Liters": 2061470.05,
+      "Waste_Production_KG": 15256.7,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 154.55,
+      "Water_Usage_Liters": 1559614.65,
+      "Waste_Production_KG": 32288.48,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 84.13,
+      "Water_Usage_Liters": 3101717.4,
+      "Waste_Production_KG": 68241.61,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 41.98,
+      "Water_Usage_Liters": 1786219.47,
+      "Waste_Production_KG": 88229.23,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 47.07,
+      "Water_Usage_Liters": 2542820.99,
+      "Waste_Production_KG": 68749.44,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 257.55,
+      "Water_Usage_Liters": 4228678.0,
+      "Waste_Production_KG": 57248.59,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 390.18,
+      "Water_Usage_Liters": 3280463.51,
+      "Waste_Production_KG": 13180.63,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 84.22,
+      "Water_Usage_Liters": 1721270.07,
+      "Waste_Production_KG": 74437.64,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 182.61,
+      "Water_Usage_Liters": 1625445.98,
+      "Waste_Production_KG": 35749.04,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 54.56,
+      "Water_Usage_Liters": 1551262.27,
+      "Waste_Production_KG": 1763.09,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 101.13,
+      "Water_Usage_Liters": 282499.15,
+      "Waste_Production_KG": 16382.57,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 126.99,
+      "Water_Usage_Liters": 83530.64,
+      "Waste_Production_KG": 30346.52,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 246.83,
+      "Water_Usage_Liters": 2645097.57,
+      "Waste_Production_KG": 89073.05,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 394.03,
+      "Water_Usage_Liters": 3676741.79,
+      "Waste_Production_KG": 34193.83,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Recycled Polyester",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 327.27,
+      "Water_Usage_Liters": 1654187.42,
+      "Waste_Production_KG": 49264.11,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 469.94,
+      "Water_Usage_Liters": 1758682.15,
+      "Waste_Production_KG": 70565.25,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 30.89,
+      "Water_Usage_Liters": 2782012.68,
+      "Waste_Production_KG": 91635.86,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 417.55,
+      "Water_Usage_Liters": 4447290.49,
+      "Waste_Production_KG": 58208.95,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 186.09,
+      "Water_Usage_Liters": 1048185.8,
+      "Waste_Production_KG": 3564.12,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 304.96,
+      "Water_Usage_Liters": 4067675.65,
+      "Waste_Production_KG": 96488.81,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 236.5,
+      "Water_Usage_Liters": 3297390.45,
+      "Waste_Production_KG": 47502.47,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 303.05,
+      "Water_Usage_Liters": 3948088.63,
+      "Waste_Production_KG": 64467.25,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 399.02,
+      "Water_Usage_Liters": 4432009.02,
+      "Waste_Production_KG": 46700.37,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 61.74,
+      "Water_Usage_Liters": 292051.34,
+      "Waste_Production_KG": 12358.51,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 212.91,
+      "Water_Usage_Liters": 4324674.91,
+      "Waste_Production_KG": 75534.12,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Recycled Polyester",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 189.13,
+      "Water_Usage_Liters": 3595068.12,
+      "Waste_Production_KG": 10319.44,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 53.05,
+      "Water_Usage_Liters": 2355692.17,
+      "Waste_Production_KG": 53631.99,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 30.38,
+      "Water_Usage_Liters": 1383636.17,
+      "Waste_Production_KG": 20414.76,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 357.02,
+      "Water_Usage_Liters": 1880696.82,
+      "Waste_Production_KG": 83530.36,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 4.8,
+      "Water_Usage_Liters": 3195449.64,
+      "Waste_Production_KG": 83743.31,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 204.09,
+      "Water_Usage_Liters": 1863153.5,
+      "Waste_Production_KG": 26493.93,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 233.58,
+      "Water_Usage_Liters": 1037476.26,
+      "Waste_Production_KG": 65687.19,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 315.37,
+      "Water_Usage_Liters": 2206310.55,
+      "Waste_Production_KG": 51626.74,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 386.3,
+      "Water_Usage_Liters": 4987667.91,
+      "Waste_Production_KG": 95944.58,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Organic Cotton",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 435.78,
+      "Water_Usage_Liters": 1665989.29,
+      "Waste_Production_KG": 74256.77,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 165.44,
+      "Water_Usage_Liters": 709488.87,
+      "Waste_Production_KG": 91510.64,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 8.91,
+      "Water_Usage_Liters": 2532907.63,
+      "Waste_Production_KG": 63896.29,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 259.98,
+      "Water_Usage_Liters": 3550906.13,
+      "Waste_Production_KG": 94801.67,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 255.12,
+      "Water_Usage_Liters": 1833620.74,
+      "Waste_Production_KG": 90666.37,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 309.58,
+      "Water_Usage_Liters": 2467583.01,
+      "Waste_Production_KG": 23036.13,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 403.61,
+      "Water_Usage_Liters": 1251385.12,
+      "Waste_Production_KG": 56431.27,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 480.92,
+      "Water_Usage_Liters": 3977023.34,
+      "Waste_Production_KG": 51641.35,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 487.03,
+      "Water_Usage_Liters": 843938.88,
+      "Waste_Production_KG": 66321.73,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 177.57,
+      "Water_Usage_Liters": 590165.75,
+      "Waste_Production_KG": 49407.46,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 440.72,
+      "Water_Usage_Liters": 1131876.86,
+      "Waste_Production_KG": 19126.25,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 222.85,
+      "Water_Usage_Liters": 182136.0,
+      "Waste_Production_KG": 6549.42,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 45.1,
+      "Water_Usage_Liters": 2558075.7,
+      "Waste_Production_KG": 92272.05,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 420.82,
+      "Water_Usage_Liters": 2649574.28,
+      "Waste_Production_KG": 41455.78,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 1.88,
+      "Water_Usage_Liters": 3139975.64,
+      "Waste_Production_KG": 89954.92,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 135.41,
+      "Water_Usage_Liters": 1739933.8,
+      "Waste_Production_KG": 11282.34,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 29.73,
+      "Water_Usage_Liters": 4484178.65,
+      "Waste_Production_KG": 23162.04,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 424.64,
+      "Water_Usage_Liters": 2608089.35,
+      "Waste_Production_KG": 50577.02,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 227.94,
+      "Water_Usage_Liters": 1040405.39,
+      "Waste_Production_KG": 98864.61,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 22.87,
+      "Water_Usage_Liters": 3837569.05,
+      "Waste_Production_KG": 91194.23,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 179.77,
+      "Water_Usage_Liters": 827124.39,
+      "Waste_Production_KG": 84339.09,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 247.34,
+      "Water_Usage_Liters": 638211.49,
+      "Waste_Production_KG": 84699.33,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 485.17,
+      "Water_Usage_Liters": 2925687.69,
+      "Waste_Production_KG": 88249.75,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Hemp",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 165.23,
+      "Water_Usage_Liters": 2796750.35,
+      "Waste_Production_KG": 72669.02,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 456.03,
+      "Water_Usage_Liters": 260365.03,
+      "Waste_Production_KG": 80547.15,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 371.86,
+      "Water_Usage_Liters": 4318078.65,
+      "Waste_Production_KG": 30860.21,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Hemp",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 214.89,
+      "Water_Usage_Liters": 4292861.33,
+      "Waste_Production_KG": 82397.58,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 270.72,
+      "Water_Usage_Liters": 4575969.36,
+      "Waste_Production_KG": 36009.4,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Hemp",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 115.53,
+      "Water_Usage_Liters": 4738584.7,
+      "Waste_Production_KG": 61575.93,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 68.94,
+      "Water_Usage_Liters": 1078651.16,
+      "Waste_Production_KG": 27398.08,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 408.0,
+      "Water_Usage_Liters": 4666637.81,
+      "Waste_Production_KG": 49288.04,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Organic Cotton",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 28.91,
+      "Water_Usage_Liters": 1920662.22,
+      "Waste_Production_KG": 17190.34,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 348.47,
+      "Water_Usage_Liters": 4030583.23,
+      "Waste_Production_KG": 36136.37,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Hemp",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 394.93,
+      "Water_Usage_Liters": 4745992.88,
+      "Waste_Production_KG": 57321.33,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 109.07,
+      "Water_Usage_Liters": 102449.89,
+      "Waste_Production_KG": 81474.09,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 291.43,
+      "Water_Usage_Liters": 2368300.96,
+      "Waste_Production_KG": 14916.0,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 191.94,
+      "Water_Usage_Liters": 1180105.48,
+      "Waste_Production_KG": 75359.3,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 308.2,
+      "Water_Usage_Liters": 3943308.04,
+      "Waste_Production_KG": 43556.57,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 232.78,
+      "Water_Usage_Liters": 2719635.79,
+      "Waste_Production_KG": 13820.9,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 39.92,
+      "Water_Usage_Liters": 199893.69,
+      "Waste_Production_KG": 43999.6,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 221.66,
+      "Water_Usage_Liters": 4867497.47,
+      "Waste_Production_KG": 85114.93,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Organic Cotton",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 494.16,
+      "Water_Usage_Liters": 4110373.12,
+      "Waste_Production_KG": 27449.28,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 238.8,
+      "Water_Usage_Liters": 4906995.27,
+      "Waste_Production_KG": 80803.31,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 227.42,
+      "Water_Usage_Liters": 238820.31,
+      "Waste_Production_KG": 40025.65,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 1.81,
+      "Water_Usage_Liters": 1361288.31,
+      "Waste_Production_KG": 75628.76,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 394.95,
+      "Water_Usage_Liters": 201180.66,
+      "Waste_Production_KG": 7101.5,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 252.73,
+      "Water_Usage_Liters": 4120554.31,
+      "Waste_Production_KG": 61147.41,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 237.6,
+      "Water_Usage_Liters": 3899376.9,
+      "Waste_Production_KG": 74468.99,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 318.99,
+      "Water_Usage_Liters": 1636290.41,
+      "Waste_Production_KG": 18901.65,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 456.36,
+      "Water_Usage_Liters": 2241925.9,
+      "Waste_Production_KG": 36720.78,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 492.85,
+      "Water_Usage_Liters": 3771432.89,
+      "Waste_Production_KG": 47493.95,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 334.91,
+      "Water_Usage_Liters": 4936089.05,
+      "Waste_Production_KG": 59467.11,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 105.58,
+      "Water_Usage_Liters": 1433800.51,
+      "Waste_Production_KG": 17009.53,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 35.66,
+      "Water_Usage_Liters": 2675224.64,
+      "Waste_Production_KG": 1658.34,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 18.94,
+      "Water_Usage_Liters": 838928.41,
+      "Waste_Production_KG": 36003.89,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 337.16,
+      "Water_Usage_Liters": 3158449.54,
+      "Waste_Production_KG": 52094.44,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 293.34,
+      "Water_Usage_Liters": 581016.27,
+      "Waste_Production_KG": 52652.46,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 337.08,
+      "Water_Usage_Liters": 4758347.17,
+      "Waste_Production_KG": 67688.53,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 400.42,
+      "Water_Usage_Liters": 2517413.75,
+      "Waste_Production_KG": 64804.68,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 389.96,
+      "Water_Usage_Liters": 3102149.1,
+      "Waste_Production_KG": 11085.58,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 181.68,
+      "Water_Usage_Liters": 3899223.73,
+      "Waste_Production_KG": 54680.68,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 360.68,
+      "Water_Usage_Liters": 396802.51,
+      "Waste_Production_KG": 64836.29,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 76.42,
+      "Water_Usage_Liters": 814525.27,
+      "Waste_Production_KG": 90924.55,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 28.71,
+      "Water_Usage_Liters": 3673348.75,
+      "Waste_Production_KG": 95219.6,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 32.69,
+      "Water_Usage_Liters": 4198419.33,
+      "Waste_Production_KG": 11096.32,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 347.5,
+      "Water_Usage_Liters": 853498.68,
+      "Waste_Production_KG": 71185.16,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 33.21,
+      "Water_Usage_Liters": 2771431.27,
+      "Waste_Production_KG": 6165.47,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 384.95,
+      "Water_Usage_Liters": 3477669.16,
+      "Waste_Production_KG": 24539.14,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 199.35,
+      "Water_Usage_Liters": 3030783.11,
+      "Waste_Production_KG": 26284.67,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 176.94,
+      "Water_Usage_Liters": 1706304.02,
+      "Waste_Production_KG": 98388.45,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 330.45,
+      "Water_Usage_Liters": 2593247.98,
+      "Waste_Production_KG": 2013.78,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 314.87,
+      "Water_Usage_Liters": 503050.98,
+      "Waste_Production_KG": 64409.19,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 248.57,
+      "Water_Usage_Liters": 1871302.45,
+      "Waste_Production_KG": 9327.98,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 298.66,
+      "Water_Usage_Liters": 4871729.57,
+      "Waste_Production_KG": 81156.98,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Organic Cotton",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 100.73,
+      "Water_Usage_Liters": 1148223.64,
+      "Waste_Production_KG": 95605.26,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 58.25,
+      "Water_Usage_Liters": 2697023.77,
+      "Waste_Production_KG": 36243.26,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 232.42,
+      "Water_Usage_Liters": 1083364.53,
+      "Waste_Production_KG": 32120.98,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 390.0,
+      "Water_Usage_Liters": 138368.52,
+      "Waste_Production_KG": 79988.61,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 295.12,
+      "Water_Usage_Liters": 3964493.5,
+      "Waste_Production_KG": 42549.18,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 101.11,
+      "Water_Usage_Liters": 3151353.7,
+      "Waste_Production_KG": 3902.97,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 406.59,
+      "Water_Usage_Liters": 2039724.67,
+      "Waste_Production_KG": 56910.94,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 319.9,
+      "Water_Usage_Liters": 1018127.88,
+      "Waste_Production_KG": 99898.66,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 33.19,
+      "Water_Usage_Liters": 805391.19,
+      "Waste_Production_KG": 85326.01,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 7.11,
+      "Water_Usage_Liters": 1396459.23,
+      "Waste_Production_KG": 63504.95,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 308.16,
+      "Water_Usage_Liters": 4444768.36,
+      "Waste_Production_KG": 45660.72,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Recycled Polyester",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 261.11,
+      "Water_Usage_Liters": 2784792.63,
+      "Waste_Production_KG": 59313.84,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 199.92,
+      "Water_Usage_Liters": 2488315.29,
+      "Waste_Production_KG": 74339.23,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Recycled Polyester",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 112.62,
+      "Water_Usage_Liters": 3199096.0,
+      "Waste_Production_KG": 23841.99,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 266.97,
+      "Water_Usage_Liters": 3040420.64,
+      "Waste_Production_KG": 99013.32,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 306.35,
+      "Water_Usage_Liters": 3503769.07,
+      "Waste_Production_KG": 61703.49,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 403.47,
+      "Water_Usage_Liters": 1332289.89,
+      "Waste_Production_KG": 11587.45,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 378.19,
+      "Water_Usage_Liters": 1315561.96,
+      "Waste_Production_KG": 43522.71,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 167.18,
+      "Water_Usage_Liters": 1919498.87,
+      "Waste_Production_KG": 12131.21,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 468.32,
+      "Water_Usage_Liters": 566094.37,
+      "Waste_Production_KG": 28434.34,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 438.77,
+      "Water_Usage_Liters": 3686542.27,
+      "Waste_Production_KG": 17671.88,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 16.71,
+      "Water_Usage_Liters": 215344.69,
+      "Waste_Production_KG": 68531.38,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 16.94,
+      "Water_Usage_Liters": 2485640.47,
+      "Waste_Production_KG": 63404.4,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 327.3,
+      "Water_Usage_Liters": 3811236.66,
+      "Waste_Production_KG": 75115.06,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 311.11,
+      "Water_Usage_Liters": 4209160.98,
+      "Waste_Production_KG": 59411.32,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 224.08,
+      "Water_Usage_Liters": 1613458.65,
+      "Waste_Production_KG": 80475.17,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 21.3,
+      "Water_Usage_Liters": 956439.27,
+      "Waste_Production_KG": 12825.3,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 379.25,
+      "Water_Usage_Liters": 2483380.5,
+      "Waste_Production_KG": 3485.45,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 293.7,
+      "Water_Usage_Liters": 4116454.21,
+      "Waste_Production_KG": 30749.19,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Recycled Polyester",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 110.36,
+      "Water_Usage_Liters": 1657579.68,
+      "Waste_Production_KG": 80352.56,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 240.45,
+      "Water_Usage_Liters": 3862388.49,
+      "Waste_Production_KG": 53205.79,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 481.93,
+      "Water_Usage_Liters": 4359908.33,
+      "Waste_Production_KG": 51526.64,
+      "Sustainability_Rating": "D",
+      "Material_Type": "Tencel",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 77.5,
+      "Water_Usage_Liters": 295297.69,
+      "Waste_Production_KG": 55482.0,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 131.08,
+      "Water_Usage_Liters": 1978872.67,
+      "Waste_Production_KG": 17137.79,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "USA"
+    },
+    {
+      "Carbon_Footprint_MT": 346.36,
+      "Water_Usage_Liters": 2483383.11,
+      "Waste_Production_KG": 73173.95,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 195.62,
+      "Water_Usage_Liters": 4775937.86,
+      "Waste_Production_KG": 68875.21,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "China"
+    },
+    {
+      "Carbon_Footprint_MT": 137.35,
+      "Water_Usage_Liters": 4738276.23,
+      "Waste_Production_KG": 35571.07,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 71.04,
+      "Water_Usage_Liters": 4822233.5,
+      "Waste_Production_KG": 44244.23,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Tencel",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 95.31,
+      "Water_Usage_Liters": 2593087.23,
+      "Waste_Production_KG": 12596.07,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 403.74,
+      "Water_Usage_Liters": 4734369.86,
+      "Waste_Production_KG": 60175.21,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 365.0,
+      "Water_Usage_Liters": 2051982.39,
+      "Waste_Production_KG": 75912.84,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 358.62,
+      "Water_Usage_Liters": 3333342.67,
+      "Waste_Production_KG": 95147.88,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 305.09,
+      "Water_Usage_Liters": 3889778.31,
+      "Waste_Production_KG": 4274.44,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 465.08,
+      "Water_Usage_Liters": 317834.53,
+      "Waste_Production_KG": 57674.42,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 432.33,
+      "Water_Usage_Liters": 3849626.94,
+      "Waste_Production_KG": 20156.23,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Germany"
+    },
+    {
+      "Carbon_Footprint_MT": 340.47,
+      "Water_Usage_Liters": 447072.47,
+      "Waste_Production_KG": 65889.04,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Organic Cotton",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 17.72,
+      "Water_Usage_Liters": 2214309.98,
+      "Waste_Production_KG": 27219.27,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "France"
+    },
+    {
+      "Carbon_Footprint_MT": 191.16,
+      "Water_Usage_Liters": 4474783.45,
+      "Waste_Production_KG": 5587.4,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Hemp",
+      "Country": "Japan"
+    },
+    {
+      "Carbon_Footprint_MT": 16.17,
+      "Water_Usage_Liters": 1651339.58,
+      "Waste_Production_KG": 58327.44,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 259.44,
+      "Water_Usage_Liters": 3921967.95,
+      "Waste_Production_KG": 48714.81,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 224.45,
+      "Water_Usage_Liters": 4130259.36,
+      "Waste_Production_KG": 87901.97,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Organic Cotton",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 241.52,
+      "Water_Usage_Liters": 2904846.14,
+      "Waste_Production_KG": 17449.74,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Vegan Leather",
+      "Country": "Brazil"
+    },
+    {
+      "Carbon_Footprint_MT": 75.23,
+      "Water_Usage_Liters": 3621746.38,
+      "Waste_Production_KG": 35384.95,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 303.51,
+      "Water_Usage_Liters": 1842834.89,
+      "Waste_Production_KG": 40261.77,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Tencel",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 103.2,
+      "Water_Usage_Liters": 2235208.8,
+      "Waste_Production_KG": 74224.72,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 14.61,
+      "Water_Usage_Liters": 1732087.98,
+      "Waste_Production_KG": 11069.46,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 84.5,
+      "Water_Usage_Liters": 4417998.49,
+      "Waste_Production_KG": 62249.96,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Organic Cotton",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 439.46,
+      "Water_Usage_Liters": 3934504.31,
+      "Waste_Production_KG": 48931.03,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Tencel",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 184.59,
+      "Water_Usage_Liters": 316107.25,
+      "Waste_Production_KG": 15561.59,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Recycled Polyester",
+      "Country": "India"
+    },
+    {
+      "Carbon_Footprint_MT": 17.65,
+      "Water_Usage_Liters": 3161613.76,
+      "Waste_Production_KG": 57314.54,
+      "Sustainability_Rating": "B",
+      "Material_Type": "Vegan Leather",
+      "Country": "UK"
+    },
+    {
+      "Carbon_Footprint_MT": 13.4,
+      "Water_Usage_Liters": 4500357.55,
+      "Waste_Production_KG": 49155.91,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Hemp",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 208.05,
+      "Water_Usage_Liters": 3706960.31,
+      "Waste_Production_KG": 5665.43,
+      "Sustainability_Rating": "A",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Italy"
+    },
+    {
+      "Carbon_Footprint_MT": 285.62,
+      "Water_Usage_Liters": 4752859.26,
+      "Waste_Production_KG": 60760.11,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Bamboo Fabric",
+      "Country": "Australia"
+    },
+    {
+      "Carbon_Footprint_MT": 145.44,
+      "Water_Usage_Liters": 3726125.25,
+      "Waste_Production_KG": 61897.66,
+      "Sustainability_Rating": "C",
+      "Material_Type": "Vegan Leather",
+      "Country": "India"
+    }
+  ],
+  "rating_by_material": {
+    "Tencel": {
+      "A": 234,
+      "B": 230,
+      "C": 141,
+      "D": 40
+    },
+    "Vegan Leather": {
+      "A": 261,
+      "B": 219,
+      "C": 132,
+      "D": 29
+    },
+    "Bamboo Fabric": {
+      "A": 252,
+      "B": 242,
+      "C": 140,
+      "D": 27
+    },
+    "Recycled Polyester": {
+      "B": 262,
+      "A": 240,
+      "C": 154,
+      "D": 40
+    },
+    "Hemp": {
+      "B": 272,
+      "A": 237,
+      "C": 151,
+      "D": 32
+    },
+    "Organic Cotton": {
+      "B": 248,
+      "A": 243,
+      "C": 135,
+      "D": 35
+    }
+  },
+  "forecast_data": {
+    "historical_years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "historical_vals": [
+      50.58,
+      50.14,
+      49.38,
+      48.61,
+      49.73,
+      50.42,
+      48.78,
+      49.13,
+      48.84,
+      49.89,
+      49.16,
+      49.37,
+      51.1,
+      50.74,
+      49.97
+    ],
+    "forecast_years": [
+      2025,
+      2026,
+      2027
+    ],
+    "forecast_vals": [
+      51.11,
+      51.57,
+      52.08
+    ]
+  }
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Predict sustainability rating and carbon footprint of fashion brands using advanced ML models."/>
+  <title>🔮 Sustainability Predictor | EcoFashion AI</title>
+  <link rel="stylesheet" href="/static/css/style.css"/>
+  <style>
+    .predictor-grid { display: grid; grid-template-columns: 380px 1fr; gap: 1.5rem; align-items: start; }
+    .result-panel { display: none; }
+    .result-panel.visible { display: block; animation: fadeInUp 0.4s ease; }
+    .rating-result-big {
+      width: 90px; height: 90px; border-radius: 20px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 2.8rem; font-weight: 900; margin: 0 auto;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+    .confidence-bar { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.6rem; }
+    .confidence-label { font-size: 0.8rem; font-weight: 600; width: 24px; text-align: center; }
+    .confidence-track { flex: 1; height: 10px; background: rgba(0,200,150,0.1); border-radius: 5px; overflow: hidden; }
+    .confidence-fill { height: 100%; border-radius: 5px; transition: width 0.8s cubic-bezier(0.4,0,0.2,1); }
+    .confidence-pct { font-size: 0.8rem; color: var(--text-secondary); width: 44px; text-align: right; }
+    .metric-display { background: var(--bg-glass); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.25rem; text-align: center; }
+    .metric-display-val { font-size: 1.5rem; font-weight: 700; font-family: 'Space Grotesk', sans-serif; color: var(--text-accent); }
+    .metric-display-label { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem; }
+    .predict-btn-wrap { position: sticky; bottom: 0; padding-top: 1rem; background: transparent; }
+    @media (max-width: 900px) { .predictor-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="page-bg"></div>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">
+        <div class="nav-brand-icon">🌿</div>
+        <div class="nav-brand-text">EcoFashion AI<span class="nav-brand-sub">Sustainability Intelligence</span></div>
+      </a>
+      <div class="nav-links">
+        <a href="/" class="nav-link"><span class="icon">📊</span> Dashboard</a>
+        <a href="/predictor" class="nav-link active"><span class="icon">🔮</span> Predictor</a>
+        <a href="/explorer" class="nav-link"><span class="icon">🔬</span> EDA Explorer</a>
+        <a href="/benchmarks" class="nav-link"><span class="icon">⚡</span> Benchmarks</a>
+        <a href="/insights" class="nav-link"><span class="icon">💡</span> AI Insights</a>
+      </div>
+      <div class="nav-badge"><div class="status-dot"></div><span>Model Ready</span></div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div class="page-container">
+      <div class="page-header animate-fade-up">
+        <div class="page-header-pill"><span>🔮</span> ML Prediction Engine</div>
+        <h1>Sustainability Predictor</h1>
+        <p>Enter your brand's details to receive an AI-powered sustainability rating prediction, carbon footprint estimate, and actionable improvement recommendations.</p>
+      </div>
+
+      <div class="predictor-grid animate-fade-up stagger-2">
+        <!-- Input Form -->
+        <div class="card" style="position:sticky;top:calc(var(--nav-height) + 1rem)">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">📋</div> Brand Details</div>
+            <button class="btn btn-secondary btn-sm" id="btn-reset">Reset</button>
+          </div>
+          <div class="card-body" style="display:flex;flex-direction:column;gap:1rem">
+
+            <div class="grid-2" style="gap:0.85rem">
+              <div class="form-group">
+                <label class="form-label" for="inp-country">Country</label>
+                <select class="form-control" id="inp-country"></select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inp-year">Year</label>
+                <select class="form-control" id="inp-year">
+                  <script>for(let y=2024;y>=2010;y--) document.write(`<option value="${y}"${y===2024?' selected':''}>${y}</option>`)</script>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="inp-material">Material Type</label>
+              <select class="form-control" id="inp-material"></select>
+            </div>
+
+            <div class="grid-2" style="gap:0.85rem">
+              <div class="form-group">
+                <label class="form-label" for="inp-eco">Eco-Friendly Mfg</label>
+                <select class="form-control" id="inp-eco">
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inp-recycling">Recycling Programs</label>
+                <select class="form-control" id="inp-recycling">
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="inp-carbon">Carbon Footprint (MT): <span id="lbl-carbon" style="color:var(--text-accent)">200</span></label>
+              <input type="range" class="form-range" id="inp-carbon" min="1" max="500" value="200" step="1"/>
+              <div style="display:flex;justify-content:space-between;font-size:0.7rem;color:var(--text-muted);margin-top:0.3rem"><span>1 MT</span><span>500 MT</span></div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="inp-water">Water Usage (L): <span id="lbl-water" style="color:var(--text-accent)">2,000,000</span></label>
+              <input type="range" class="form-range" id="inp-water" min="50000" max="5000000" value="2000000" step="10000"/>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="inp-waste">Waste Production (KG): <span id="lbl-waste" style="color:var(--text-accent)">50,000</span></label>
+              <input type="range" class="form-range" id="inp-waste" min="1000" max="100000" value="50000" step="500"/>
+            </div>
+
+            <div class="grid-2" style="gap:0.85rem">
+              <div class="form-group">
+                <label class="form-label" for="inp-lines">Product Lines</label>
+                <input type="number" class="form-control" id="inp-lines" min="1" max="20" value="5"/>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inp-price">Avg Price (USD)</label>
+                <input type="number" class="form-control" id="inp-price" min="10" max="500" value="150"/>
+              </div>
+            </div>
+
+            <div class="grid-2" style="gap:0.85rem">
+              <div class="form-group">
+                <label class="form-label" for="inp-market">Market Trend</label>
+                <select class="form-control" id="inp-market">
+                  <option value="Growing">Growing</option>
+                  <option value="Stable">Stable</option>
+                  <option value="Declining">Declining</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inp-cert">Certification</label>
+                <select class="form-control" id="inp-cert"></select>
+              </div>
+            </div>
+
+            <div class="predict-btn-wrap">
+              <button class="btn btn-primary btn-lg" id="btn-predict" style="width:100%">
+                <span id="predict-btn-text">🔮 Predict Rating</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Results Panel -->
+        <div id="result-panel">
+          <!-- Empty state -->
+          <div class="card" id="empty-state" style="padding:3rem;text-align:center">
+            <div style="font-size:4rem;margin-bottom:1rem">🌿</div>
+            <h3 style="color:var(--text-primary);margin-bottom:0.5rem">Ready to Analyze</h3>
+            <p style="color:var(--text-secondary)">Fill in your brand details and click <strong>Predict Rating</strong> to get an AI-powered sustainability analysis.</p>
+          </div>
+
+          <!-- Results -->
+          <div id="results-content" style="display:none">
+            <!-- Rating Card -->
+            <div class="card animate-fade-up" style="margin-bottom:1.5rem">
+              <div class="card-header">
+                <div class="card-title"><div class="card-icon">🏷️</div> Predicted Sustainability Rating</div>
+                <span class="badge badge-green" id="result-model-name">Random Forest</span>
+              </div>
+              <div class="card-body">
+                <div style="display:flex;gap:2rem;align-items:center;margin-bottom:1.5rem">
+                  <div class="rating-result-big" id="result-rating-badge">—</div>
+                  <div style="flex:1">
+                    <div style="font-size:1.5rem;font-weight:700;color:var(--text-primary);margin-bottom:0.25rem" id="result-rating-text">—</div>
+                    <div style="font-size:0.9rem;color:var(--text-secondary)" id="result-rating-desc">—</div>
+                  </div>
+                </div>
+
+                <!-- Confidence bars -->
+                <div class="section-label">Prediction Confidence</div>
+                <div id="confidence-bars"></div>
+              </div>
+            </div>
+
+            <!-- Metrics Row -->
+            <div class="grid-3 animate-fade-up stagger-1" style="margin-bottom:1.5rem">
+              <div class="metric-display">
+                <div class="metric-display-val" id="result-carbon">—</div>
+                <div class="metric-display-label">Predicted Carbon (MT)</div>
+              </div>
+              <div class="metric-display">
+                <div class="metric-display-val" id="result-ecoscore">—</div>
+                <div class="metric-display-label">Eco Score / 100</div>
+              </div>
+              <div class="metric-display">
+                <div class="metric-display-val" id="result-grade-color" style="font-size:1rem">—</div>
+                <div class="metric-display-label">Environmental Grade</div>
+              </div>
+            </div>
+
+            <!-- Eco Score Ring -->
+            <div class="card animate-fade-up stagger-2" style="margin-bottom:1.5rem">
+              <div class="card-header">
+                <div class="card-title"><div class="card-icon">🎯</div> Eco Score Breakdown</div>
+              </div>
+              <div class="card-body">
+                <div style="display:flex;align-items:center;gap:2rem">
+                  <div class="score-ring-wrap">
+                    <div class="score-ring">
+                      <svg width="140" height="140" viewBox="0 0 140 140">
+                        <circle cx="70" cy="70" r="58" fill="none" stroke="rgba(0,200,150,0.1)" stroke-width="12"/>
+                        <circle cx="70" cy="70" r="58" fill="none" stroke="url(#grad1)" stroke-width="12"
+                          stroke-linecap="round" stroke-dasharray="364" id="eco-ring-circle" stroke-dashoffset="364"/>
+                        <defs>
+                          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#00c896"/>
+                            <stop offset="100%" style="stop-color:#00b4d8"/>
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <div class="score-ring-val">
+                        <div class="score-ring-num" id="eco-ring-num">—</div>
+                        <div class="score-ring-sub">/ 100</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="flex:1">
+                    <div style="margin-bottom:0.9rem">
+                      <div style="display:flex;justify-content:space-between;font-size:0.8rem;margin-bottom:0.3rem"><span style="color:var(--text-secondary)">Carbon Impact</span><span id="pb-carbon" style="color:var(--text-accent)">—%</span></div>
+                      <div class="progress-bar-track"><div class="progress-bar-fill" id="pfill-carbon" style="width:0%;background:linear-gradient(135deg,#00c896,#00f5a0)"></div></div>
+                    </div>
+                    <div style="margin-bottom:0.9rem">
+                      <div style="display:flex;justify-content:space-between;font-size:0.8rem;margin-bottom:0.3rem"><span style="color:var(--text-secondary)">Water Efficiency</span><span id="pb-water" style="color:var(--text-accent)">—%</span></div>
+                      <div class="progress-bar-track"><div class="progress-bar-fill" id="pfill-water" style="width:0%;background:linear-gradient(135deg,#00b4d8,#0090b8)"></div></div>
+                    </div>
+                    <div style="margin-bottom:0.9rem">
+                      <div style="display:flex;justify-content:space-between;font-size:0.8rem;margin-bottom:0.3rem"><span style="color:var(--text-secondary)">Waste Management</span><span id="pb-waste" style="color:var(--text-accent)">—%</span></div>
+                      <div class="progress-bar-track"><div class="progress-bar-fill" id="pfill-waste" style="width:0%;background:linear-gradient(135deg,#84cc16,#65a30d)"></div></div>
+                    </div>
+                    <div style="margin-bottom:0.9rem">
+                      <div style="display:flex;justify-content:space-between;font-size:0.8rem;margin-bottom:0.3rem"><span style="color:var(--text-secondary)">Eco Manufacturing</span><span id="pb-eco" style="color:var(--text-accent)">—%</span></div>
+                      <div class="progress-bar-track"><div class="progress-bar-fill" id="pfill-eco" style="width:0%;background:linear-gradient(135deg,#f59e0b,#d97706)"></div></div>
+                    </div>
+                    <div>
+                      <div style="display:flex;justify-content:space-between;font-size:0.8rem;margin-bottom:0.3rem"><span style="color:var(--text-secondary)">Recycling Programs</span><span id="pb-rec" style="color:var(--text-accent)">—%</span></div>
+                      <div class="progress-bar-track"><div class="progress-bar-fill" id="pfill-rec" style="width:0%;background:linear-gradient(135deg,#10b981,#059669)"></div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Recommendations -->
+            <div class="card animate-fade-up stagger-3">
+              <div class="card-header">
+                <div class="card-title"><div class="card-icon">💡</div> AI Recommendations</div>
+                <span class="badge badge-blue">Personalized</span>
+              </div>
+              <div class="card-body">
+                <div id="recommendations-grid" style="display:flex;flex-direction:column;gap:0.75rem"></div>
+              </div>
+            </div>
+          </div><!-- /results-content -->
+        </div><!-- /result-panel -->
+      </div><!-- /predictor-grid -->
+
+    </div>
+  </main>
+
+  <script src="/static/js/predictor.js"></script>
+</body>
+</html>

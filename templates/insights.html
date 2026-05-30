@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="AI Insights — top brands leaderboard, what-if simulator, trend forecasting, and certification analysis."/>
+  <title>💡 AI Insights | EcoFashion AI</title>
+  <link rel="stylesheet" href="/static/css/style.css"/>
+  <style>
+    .whatif-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; }
+    .whatif-result-row {
+      display:flex; align-items:center; justify-content:space-between;
+      padding:0.65rem 1rem; border-radius:10px; margin-bottom:0.4rem;
+      background:var(--bg-glass); border:1px solid var(--border-subtle);
+      font-size:0.85rem;
+    }
+    .whatif-carbon-val { font-weight:600; color:var(--text-secondary); }
+    .rating-pill {
+      display:inline-flex; align-items:center; justify-content:center;
+      width:34px;height:34px; border-radius:8px;
+      font-weight:800; font-size:1rem; font-family:'Space Grotesk',sans-serif;
+    }
+    .insight-card {
+      background:var(--grad-card); border:1px solid var(--border-subtle);
+      border-radius:var(--radius-lg); padding:1.5rem;
+      transition:var(--transition-smooth); position:relative; overflow:hidden;
+    }
+    .insight-card:hover { border-color:var(--border-medium); transform:translateY(-2px); }
+    .insight-number {
+      font-size:3.5rem; font-weight:900; font-family:'Space Grotesk',sans-serif;
+      line-height:1; letter-spacing:-0.04em;
+      background:var(--grad-primary); -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent; background-clip:text;
+    }
+    .country-bar-row { display:flex;align-items:center;gap:1rem;margin-bottom:0.7rem; }
+    .country-name { font-size:0.82rem;color:var(--text-secondary);width:80px;flex-shrink:0; }
+    .country-track { flex:1;height:12px;background:rgba(0,200,150,0.08);border-radius:6px;overflow:hidden; }
+    .country-fill { height:100%;border-radius:6px;background:var(--grad-primary);transition:width 1s cubic-bezier(0.4,0,0.2,1); }
+    .country-val { font-size:0.78rem;font-weight:600;color:var(--text-accent);width:40px;text-align:right; }
+    @media(max-width:900px){ .whatif-grid{grid-template-columns:1fr;} }
+  </style>
+</head>
+<body>
+  <div class="page-bg"></div>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">
+        <div class="nav-brand-icon">🌿</div>
+        <div class="nav-brand-text">EcoFashion AI<span class="nav-brand-sub">Sustainability Intelligence</span></div>
+      </a>
+      <div class="nav-links">
+        <a href="/" class="nav-link"><span class="icon">📊</span> Dashboard</a>
+        <a href="/predictor" class="nav-link"><span class="icon">🔮</span> Predictor</a>
+        <a href="/explorer" class="nav-link"><span class="icon">🔬</span> EDA Explorer</a>
+        <a href="/benchmarks" class="nav-link"><span class="icon">⚡</span> Benchmarks</a>
+        <a href="/insights" class="nav-link active"><span class="icon">💡</span> AI Insights</a>
+      </div>
+      <div class="nav-badge"><div class="status-dot"></div><span>Live Intelligence</span></div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div class="page-container">
+      <div class="page-header animate-fade-up">
+        <div class="page-header-pill"><span>💡</span> Advanced AI Features</div>
+        <h1>AI Insights & Analysis</h1>
+        <p>Explore the What-If Simulator, brand leaderboards, country rankings, and deep sustainability intelligence powered by our ML engine.</p>
+      </div>
+
+      <!-- Summary Insight Cards -->
+      <div class="grid-4 animate-fade-up stagger-1" style="margin-bottom:2rem">
+        <div class="insight-card">
+          <div class="insight-number" id="ins-top-pct">—</div>
+          <div style="font-size:0.85rem;color:var(--text-secondary);margin-top:0.5rem">% brands hold an A or B sustainability rating</div>
+        </div>
+        <div class="insight-card">
+          <div class="insight-number" id="ins-eco-pct">—</div>
+          <div style="font-size:0.85rem;color:var(--text-secondary);margin-top:0.5rem">% use eco-friendly manufacturing processes</div>
+        </div>
+        <div class="insight-card">
+          <div class="insight-number" id="ins-rec-pct">—</div>
+          <div style="font-size:0.85rem;color:var(--text-secondary);margin-top:0.5rem">% have active recycling programs</div>
+        </div>
+        <div class="insight-card">
+          <div class="insight-number" id="ins-score">—</div>
+          <div style="font-size:0.85rem;color:var(--text-secondary);margin-top:0.5rem">Global average eco-score out of 100</div>
+        </div>
+      </div>
+
+      <!-- 🔬 What-If Simulator -->
+      <div class="card animate-fade-up stagger-2" style="margin-bottom:1.5rem">
+        <div class="card-header">
+          <div class="card-title"><div class="card-icon">🧪</div> What-If Simulator</div>
+          <span class="badge badge-blue">Advanced Feature</span>
+        </div>
+        <div class="card-body">
+          <p style="color:var(--text-secondary);font-size:0.875rem;margin-bottom:1.25rem">
+            Simulate how changes in <strong style="color:var(--text-accent)">Carbon Footprint</strong> affect the predicted Sustainability Rating. Adjust the base parameters below to see real-time results.
+          </p>
+          <div class="whatif-grid">
+            <div style="display:flex;flex-direction:column;gap:1rem">
+              <div class="section-label">Simulator Parameters</div>
+              <div class="grid-2" style="gap:0.85rem">
+                <div class="form-group">
+                  <label class="form-label">Country</label>
+                  <select class="form-control" id="wi-country"><option>USA</option></select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Material Type</label>
+                  <select class="form-control" id="wi-material"><option>Organic Cotton</option></select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Eco-Friendly Mfg</label>
+                  <select class="form-control" id="wi-eco">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Recycling</label>
+                  <select class="form-control" id="wi-recycling">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Water Usage (L)</label>
+                  <input type="number" class="form-control" id="wi-water" value="2000000"/>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Waste (KG)</label>
+                  <input type="number" class="form-control" id="wi-waste" value="50000"/>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Certification</label>
+                  <select class="form-control" id="wi-cert"><option>GOTS</option></select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Market Trend</label>
+                  <select class="form-control" id="wi-market">
+                    <option>Growing</option><option>Stable</option><option>Declining</option>
+                  </select>
+                </div>
+              </div>
+              <button class="btn btn-primary" id="btn-run-whatif" style="width:100%">🧪 Run Simulation</button>
+            </div>
+
+            <div>
+              <div class="section-label">Carbon Footprint → Rating Simulation</div>
+              <div id="whatif-results">
+                <div class="loading-state" style="padding:2rem"><span style="color:var(--text-muted)">⬅ Configure parameters and run the simulation</span></div>
+              </div>
+              <div class="chart-wrap" style="height:220px;margin-top:1rem">
+                <canvas id="whatif-chart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Leaderboard + Country Rankings side by side -->
+      <div class="grid-2 animate-fade-up stagger-3" style="margin-bottom:1.5rem">
+
+        <!-- Top Brands Leaderboard -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">🏆</div> Top 10 Sustainable Brands</div>
+            <span class="badge badge-green">By Eco-Score</span>
+          </div>
+          <div class="card-body" id="leaderboard-body">
+            <div class="loading-state"><div class="spinner"></div></div>
+          </div>
+        </div>
+
+        <!-- Country Sustainability Leaderboard -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">🌍</div> Country Sustainability Rankings</div>
+            <span class="badge badge-blue">Avg Rating Score</span>
+          </div>
+          <div class="card-body" id="country-leaderboard">
+            <div class="loading-state"><div class="spinner"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certification Impact + Market Trend Analysis -->
+      <div class="grid-2 animate-fade-up stagger-4" style="margin-bottom:1.5rem">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">🏅</div> Certification Impact on Ratings</div>
+          </div>
+          <div class="card-body">
+            <div class="chart-wrap" style="height:260px"><canvas id="cert-impact-chart"></canvas></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><div class="card-icon">🔮</div> 2025–2027 Eco-Score Forecast</div>
+            <span class="badge badge-blue">ML Projection</span>
+          </div>
+          <div class="card-body">
+            <div class="chart-wrap" style="height:220px"><canvas id="insight-forecast-chart"></canvas></div>
+            <div id="forecast-cards" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.75rem;margin-top:1rem"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Material Sustainability Ranking -->
+      <div class="card animate-fade-up stagger-5">
+        <div class="card-header">
+          <div class="card-title"><div class="card-icon">🧵</div> Material Sustainability Intelligence</div>
+          <span class="badge badge-green">Ranked by Eco Impact</span>
+        </div>
+        <div class="card-body" style="padding:0">
+          <table class="data-table" id="material-ranking-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Material Type</th>
+                <th>Avg Carbon (MT)</th>
+                <th>Avg Water (L)</th>
+                <th>Avg Waste (KG)</th>
+                <th>Brand Count</th>
+                <th>Sustainability Index</th>
+              </tr>
+            </thead>
+            <tbody id="material-ranking-body">
+              <tr><td colspan="7" class="loading-state"><div class="spinner"></div></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="/static/js/insights.js"></script>
+</body>
+</html>
