@@ -64,13 +64,13 @@ function collectFormData() {
     waste:         parseFloat(document.getElementById('inp-waste')?.value  || 50000),
     recycling:     document.getElementById('inp-recycling')?.value || 'Yes',
     product_lines: parseInt(document.getElementById('inp-lines')?.value   || 5),
-    avg_price:     parseFloat(document.getElementById('inp-price')?.value  || 150),
-    market:        document.getElementById('inp-market')?.value    || 'Stable',
+    // avg_price:     parseFloat(document.getElementById('inp-price')?.value  || 150),
+    // market:        document.getElementById('inp-market')?.value    || 'Stable',
     cert:          document.getElementById('inp-cert')?.value      || 'GOTS'
   };
 }
 
-// ─── Reset form ──────────────────────────────────
+// ─── Reset form ────────────────────────────────── 
 function resetForm() {
   document.getElementById('inp-carbon').value = 200;
   document.getElementById('inp-water').value  = 2000000;
