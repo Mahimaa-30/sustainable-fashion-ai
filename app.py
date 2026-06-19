@@ -110,7 +110,7 @@ def api_predict():
         recycling = 1 if data.get('recycling', 'Yes') == 'Yes' else 0
         product_lines = int(data.get('product_lines', 5))
         avg_price = float(data.get('avg_price', 150))
-        # market = data.get('market', 'Stable')
+        market = data.get('market', 'Stable')
         cert = data.get('cert', 'GOTS')
 
         def encode(le_classes, val, default=0):
@@ -121,7 +121,7 @@ def api_predict():
 
         country_enc = encode(encoders_meta['le_country_classes'], country)
         material_enc = encode(encoders_meta['le_material_classes'], material)
-        # market_enc = encode(encoders_meta['le_market_classes'], market)
+        market_enc = encode(encoders_meta['le_market_classes'], market)
         cert_enc = encode(encoders_meta['le_cert_classes'], cert)
 
         # Compute interaction features
@@ -135,7 +135,7 @@ def api_predict():
         # Classification features (must match training order exactly)
         X_cls = np.array([[country_enc, year, material_enc, eco_friendly, carbon,
                            water, waste, recycling, product_lines, avg_price,
-                           # market_enc, 
+                           market_enc, 
                            cert_enc,
                            carbon_per_product, water_per_product, carbon_water_ratio,
                            waste_carbon_ratio, price_per_line, sustainability_score]])
@@ -153,7 +153,7 @@ def api_predict():
         # Regression features (need rating_enc for regression too)
         X_reg = np.array([[country_enc, year, material_enc, eco_friendly,
                            water, waste, recycling, product_lines, avg_price,
-                           #market_enc,
+                           market_enc,
                             cert_enc, int(rating_enc),
                            carbon_per_product, water_per_product, price_per_line, sustainability_score]])
         X_reg_scaled = scaler_reg.transform(X_reg)

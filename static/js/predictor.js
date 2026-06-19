@@ -64,8 +64,8 @@ function collectFormData() {
     waste:         parseFloat(document.getElementById('inp-waste')?.value  || 50000),
     recycling:     document.getElementById('inp-recycling')?.value || 'Yes',
     product_lines: parseInt(document.getElementById('inp-lines')?.value   || 5),
-    // avg_price:     parseFloat(document.getElementById('inp-price')?.value  || 150),
-    // market:        document.getElementById('inp-market')?.value    || 'Stable',
+    avg_price:     parseFloat(document.getElementById('inp-price')?.value  || 150),
+    market:        document.getElementById('inp-market')?.value    || 'Stable',
     cert:          document.getElementById('inp-cert')?.value      || 'GOTS'
   };
 }
